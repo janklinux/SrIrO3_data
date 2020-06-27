@@ -1,0 +1,424 @@
+[PROLOGUE] Starting prologue on node node0741 at date Fri Sep 28 00:03:03 CEST 2018
+/home/acad/ucl-naps/jank/tools/python/lib/python2.7/site-packages/pymatgen-2017.11.30-py2.7-linux-x86_64.egg/pymatgen/__init__.py:87: UserWarning: 
+Pymatgen will drop Py2k support from v2019.1.1. Pls consult the documentation
+at https://www.pymatgen.org for more details.
+  at https://www.pymatgen.org for more details.""")
+Atom indices in CIF file to compute:  ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28']
+Species are:  [Element Sr, Element Sr, Element Sr, Element Sr, Element Ir, Element Ir, Element Ir, Element Ir, Element Ir, Element Ir, Element Ir, Element Ir, Element O, Element O, Element O, Element O, Element O, Element O, Element O, Element O, Element O, Element O, Element O, Element O, Element O, Element O, Element O, Element O]
+There are residues, killing them...
+Working on absorber O (atom# 13) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+Working on absorber O (atom# 14) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+Working on absorber O (atom# 15) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+Working on absorber O (atom# 16) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+Working on absorber O (atom# 17) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+Working on absorber O (atom# 18) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+Working on absorber O (atom# 19) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+Working on absorber O (atom# 20) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+Working on absorber O (atom# 21) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+Working on absorber O (atom# 22) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+Working on absorber O (atom# 23) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+Working on absorber O (atom# 24) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+Working on absorber O (atom# 25) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+Working on absorber O (atom# 26) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+Working on absorber O (atom# 27) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+Working on absorber O (atom# 28) - Edge: K
+Traceback (most recent call last):
+  File "/home/acad/ucl-naps/jank/python-tools/xanes/pmg_xanes.py", line 94, in <module>
+    mp_xanes.write_input(wrk_dir, make_dir_if_not_present=True)
+  File "/home/acad/ucl-naps/jank/tools/python/lib/python2.7/site-packages/pymatgen-2017.11.30-py2.7-linux-x86_64.egg/pymatgen/io/feff/sets.py", line 112, in write_input
+    feff = self.all_input()
+  File "/home/acad/ucl-naps/jank/tools/python/lib/python2.7/site-packages/pymatgen-2017.11.30-py2.7-linux-x86_64.egg/pymatgen/io/feff/sets.py", line 96, in all_input
+    d.update({"POTENTIALS": self.potential, "ATOMS": self.atoms})
+  File "/home/acad/ucl-naps/jank/tools/python/lib/python2.7/site-packages/pymatgen-2017.11.30-py2.7-linux-x86_64.egg/pymatgen/io/feff/sets.py", line 231, in potential
+    return Potential(self.structure, self.absorbing_atom)
+  File "/home/acad/ucl-naps/jank/tools/python/lib/python2.7/site-packages/pymatgen-2017.11.30-py2.7-linux-x86_64.egg/pymatgen/io/feff/inputs.py", line 728, in __init__
+    get_absorbing_atom_symbol_index(absorbing_atom, struct)
+  File "/home/acad/ucl-naps/jank/tools/python/lib/python2.7/site-packages/pymatgen-2017.11.30-py2.7-linux-x86_64.egg/pymatgen/io/feff/inputs.py", line 940, in get_absorbing_atom_symbol_index
+    return str(structure[absorbing_atom].specie), absorbing_atom
+  File "/home/acad/ucl-naps/jank/tools/python/lib/python2.7/site-packages/pymatgen-2017.11.30-py2.7-linux-x86_64.egg/pymatgen/core/structure.py", line 184, in __getitem__
+    return self.sites[ind]
+IndexError: list index out of range
+
+------------------------------- PBS server and MOM logs ------------------------------- 
+
+
+------------------frontal2.cenaero.be------------------
+
+Job: 2799813.frontal2
+
+09/27/2018 22:23:55  S    enqueuing into main, state 1 hop 1
+09/27/2018 22:23:55  S    dequeuing from main, state 1
+09/27/2018 22:23:55  S    enqueuing into main_has, state 1 hop 1
+09/27/2018 22:23:55  S    Job Queued at request of jank@frontal3, owner = jank@frontal3, job name = XANES_te_2, queue = main_has
+09/27/2018 22:23:55  A    queue=main
+09/27/2018 22:23:55  A    queue=main_has
+09/27/2018 23:14:25  L    Placement set cenaero=z_ivy has too few free resources or is too small
+09/27/2018 23:38:54  S    Job Modified at request of root@frontal2
+09/27/2018 23:53:31  L    Job is a top job and will run at Fri Sep 28 05:53:21 2018
+09/27/2018 23:53:52  L    Job is a top job and will run at Fri Sep 28 05:53:42 2018
+09/27/2018 23:54:04  L    Job is a top job and will run at Fri Sep 28 05:53:45 2018
+09/27/2018 23:54:15  L    Job is a top job and will run at Fri Sep 28 05:54:06 2018
+09/27/2018 23:54:28  L    Job is a top job and will run at Fri Sep 28 05:54:19 2018
+09/27/2018 23:54:40  L    Job is a top job and will run at Fri Sep 28 05:54:23 2018
+09/27/2018 23:55:07  L    Job is a top job and will run at Fri Sep 28 05:54:23 2018
+09/27/2018 23:55:19  L    Job is a top job and will run at Fri Sep 28 05:54:23 2018
+09/27/2018 23:55:40  L    Job is a top job and will run at Fri Sep 28 05:54:23 2018
+09/27/2018 23:55:52  L    Job is a top job and will run at Fri Sep 28 05:54:23 2018
+09/27/2018 23:56:04  L    Job is a top job and will run at Fri Sep 28 05:54:23 2018
+09/27/2018 23:56:18  L    Job is a top job and will run at Fri Sep 28 05:54:23 2018
+09/27/2018 23:56:30  L    Job is a top job and will run at Fri Sep 28 05:54:23 2018
+09/27/2018 23:56:43  L    Job is a top job and will run at Fri Sep 28 05:54:23 2018
+09/27/2018 23:56:54  L    Job is a top job and will run at Fri Sep 28 05:54:23 2018
+09/27/2018 23:57:11  L    Job is a top job and will run at Fri Sep 28 05:54:23 2018
+09/27/2018 23:57:27  L    Job is a top job and will run at Fri Sep 28 05:54:23 2018
+09/27/2018 23:57:40  L    Job is a top job and will run at Fri Sep 28 05:54:23 2018
+09/27/2018 23:57:51  L    Job is a top job and will run at Fri Sep 28 05:43:48 2018
+09/27/2018 23:58:03  L    Job is a top job and will run at Fri Sep 28 05:43:48 2018
+09/27/2018 23:58:33  L    Job is a top job and will run at Fri Sep 28 05:43:48 2018
+09/27/2018 23:58:47  L    Job is a top job and will run at Fri Sep 28 05:43:48 2018
+09/27/2018 23:59:00  L    Job is a top job and will run at Fri Sep 28 05:43:48 2018
+09/27/2018 23:59:12  L    Job is a top job and will run at Fri Sep 28 05:43:48 2018
+09/27/2018 23:59:24  L    Job is a top job and will run at Fri Sep 28 05:43:48 2018
+09/27/2018 23:59:36  L    Job is a top job and will run at Fri Sep 28 05:29:24 2018
+09/27/2018 23:59:50  L    Considering job to run
+09/27/2018 23:59:50  L    Job is a top job and will run at Fri Sep 28 05:29:24 2018
+09/27/2018 23:59:50  L    Queue main_has per-user limit reached on resource ncpus
+09/28/2018 00:00:03  L    Job is a top job and will run at Fri Sep 28 05:29:24 2018
+09/28/2018 00:00:15  L    Job is a top job and will run at Fri Sep 28 05:29:24 2018
+09/28/2018 00:00:27  L    Job is a top job and will run at Fri Sep 28 05:19:16 2018
+09/28/2018 00:00:38  L    Job is a top job and will run at Fri Sep 28 05:08:23 2018
+09/28/2018 00:00:57  L    Job is a top job and will run at Fri Sep 28 05:08:23 2018
+09/28/2018 00:01:08  L    Job is a top job and will run at Fri Sep 28 04:43:43 2018
+09/28/2018 00:01:19  L    Job is a top job and will run at Fri Sep 28 04:43:43 2018
+09/28/2018 00:01:48  L    Job is a top job and will run at Fri Sep 28 04:23:09 2018
+09/28/2018 00:02:20  L    Job is a top job and will run at Fri Sep 28 04:23:09 2018
+09/28/2018 00:02:32  L    Job is a top job and will run at Fri Sep 28 04:23:09 2018
+09/28/2018 00:03:03  L    Job run
+09/28/2018 00:03:03  A    user=jank group=catalys project=generic jobname=XANES_te_2 queue=main_has ctime=1538079835 qtime=1538079835 etime=1538079835 start=1538085783 exec_host=node0741/0*12 exec_vnode=(node0741:ncpus=12:mem=30720000kb) Resource_List.mem=30000mb Resource_List.mem_pnode=63000mb Resource_List.model=haswell_fit Resource_List.mpiprocs=12 Resource_List.ncpus=12 Resource_List.ncpus_pnode=24 Resource_List.nodect=1 Resource_List.place=free Resource_List.rncpus=12 Resource_List.select=1:ncpus=12:mem=30000mb:mpiprocs=12:ompthreads=1 Resource_List.walltime=12:00:00 resource_assigned.mem=30720000kb resource_assigned.ncpus=12
+09/28/2018 00:10:47  S    Added 12 cpu licenses, total 12
+09/28/2018 00:10:47  S    fully licensed
+09/28/2018 00:11:47  S    Added 12 cpu licenses, total 12
+09/28/2018 00:11:47  S    fully licensed
+09/28/2018 00:14:51  S    Job Modified at request of root@frontal2
+
+------------------node0741------------------
+
+Job: 2799813.frontal2
+
+09/28/2018 00:03:03  M    running prologue
+09/28/2018 00:03:04  M    Started, pid = 27018
+09/28/2018 00:50:28  M    task 00000001 terminated
+09/28/2018 00:50:28  M    Terminated
+09/28/2018 00:50:28  M    task 00000001 cput= 4:41:21
+09/28/2018 00:50:28  M    node0741 cput= 4:41:24 mem=1585032kb
+09/28/2018 00:50:28  M    update_job_usage: CPU usage: 16885.246 secs
+09/28/2018 00:50:28  M    update_job_usage: Memory usage: mem=1585032kb
+09/28/2018 00:50:28  M    update_job_usage: Memory usage: vmem=1585032kb
+09/28/2018 00:50:28  M    no active tasks
+09/28/2018 00:50:28  M    copy file request received
+09/28/2018 00:50:28  M    staged 1 items out over 0:00:00
+09/28/2018 00:50:28  M    no active tasks
+09/28/2018 00:50:28  M    delete job request received
+
+
+------------------------------- Job Information ------------------------------- 
+
+Job Owner       : jank@frontal3 
+Job Project     : catalys 
+Job Name        : XANES_te_2 
+Job Id          : 2799813.frontal2 
+Job Queue       : main_has 
+Job Exit Status : 1 
+
+Resources Requested 
+
+Number of Cores per Job                - NCPUS_PJOB  : 12
+Total Memory per Job                   - MEM_PJOB    : 30000mb
+Placement                                            : free
+Execution Time                         - WALLTIME    : 12:00:00
+
+Resources Used 
+
+Total Memory used                      - MEM              : 1585032kb
+Total CPU Time                         - CPU_Time         : 04:41:25
+Execution Time                         - Wall_Time        : 00:47:25
+Ncpus x Execution Time                 - N_Wall_Time      : 9:29:00
+CPU_Time / N_Wall_Time (%)             - ETA              : 49%
+Number of Mobilized Resources per Job  - NCPUS_EQUIV_PJOB : 12
+Mobilized Resources x Execution Time   - R_Wall_Time      : 9:29:00
+CPU_Time / R_Wall_Time (%)             - ALPHA            : 49%
+
+For metrics definition, please refer to https://tier1.cenaero.be/en/faq-page 
+
+------------------------------------------------------------------------------- 
+

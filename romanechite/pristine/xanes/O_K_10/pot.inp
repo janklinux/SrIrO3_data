@@ -1,0 +1,29 @@
+mpot, nph, ntitle, ihole, ipr1, iafolp, ixc,ispec
+   1   2   8   1   1   0   0   1
+nmix, nohole, jumprm, inters, nscmt, icoul, lfms1, iunf
+   1   2   0   0  30   0   0   0
+comment: None given                                                             
+Source:                                                                         
+Structure Summary:  Ir10 O20                                                    
+Reduced formula:  IrO2                                                          
+space group: (C2/m), space number:  (12)                                        
+abc: 13.659116   3.106561   9.888641                                            
+angles: 90.000000  93.828236  90.000000                                         
+sites: 30                                                                       
+gamach, rgrd, ca1, ecv, totvol, rfms1, corval_emin
+      0.15586      0.05000      0.20000    -40.00000      0.00000      4.50000    -70.00000
+ iz, lmaxsc, xnatph, xion, folp
+    8    2      1.00000      0.00000      1.15000
+   77    2   1000.00000      0.00000      1.15000
+    8    2   2000.00000      0.00000      1.15000
+ExternalPot switch, StartFromFile switch
+ F F
+OVERLAP option: novr(iph)
+   0   0   0
+ iphovr  nnovr rovr 
+ChSh_Type:
+   0
+ConfigType:
+   1
+Temperature (in eV):
+  0.000000000000000E+000           1

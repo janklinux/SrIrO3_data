@@ -1,0 +1,156 @@
+[PROLOGUE] Starting prologue on node node0760 at date Tue Oct  2 09:47:06 CEST 2018
+/home/acad/ucl-naps/jank/tools/python/lib/python2.7/site-packages/pymatgen-2017.11.30-py2.7-linux-x86_64.egg/pymatgen/__init__.py:87: UserWarning: 
+Pymatgen will drop Py2k support from v2019.1.1. Pls consult the documentation
+at https://www.pymatgen.org for more details.
+  at https://www.pymatgen.org for more details.""")
+Atom indices in CIF file to compute:  ['0', '4', '6', '12', '13']
+Species are:  [Element Sr, Element Ir, Element Ir, Element O, Element O]
+There are residues, killing them...
+Working on absorber O (atom# 12) - Edge: K
+2018-10-02 09:47:09,686: WARNING: pymatgen.io.feff.sets: Large system(>=14 atoms) or EXAFS calculation,                                 removing K-space settings
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+Working on absorber O (atom# 13) - Edge: K
+2018-10-02 09:49:55,325: WARNING: pymatgen.io.feff.sets: Large system(>=14 atoms) or EXAFS calculation,                                 removing K-space settings
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+
+------------------------------- PBS server and MOM logs ------------------------------- 
+
+
+------------------frontal2.cenaero.be------------------
+
+Job: 2831026.frontal2
+
+10/02/2018 06:45:08  S    enqueuing into main, state 1 hop 1
+10/02/2018 06:45:08  S    dequeuing from main, state 1
+10/02/2018 06:45:08  S    enqueuing into main_has, state 1 hop 1
+10/02/2018 06:45:08  S    Job Queued at request of jank@frontal3, owner = jank@frontal3, job name = XANES_sq_1, queue = main_has
+10/02/2018 06:45:08  A    queue=main
+10/02/2018 06:45:08  A    queue=main_has
+10/02/2018 09:28:31  L    Job is a top job and will run at Tue Oct  2 15:24:47 2018
+10/02/2018 09:29:01  L    Job is a top job and will run at Tue Oct  2 15:24:47 2018
+10/02/2018 09:29:30  L    Job is a top job and will run at Tue Oct  2 15:24:47 2018
+10/02/2018 09:30:09  L    Job is a top job and will run at Tue Oct  2 15:24:47 2018
+10/02/2018 09:30:40  L    Job is a top job and will run at Tue Oct  2 15:24:47 2018
+10/02/2018 09:31:11  L    Job is a top job and will run at Tue Oct  2 15:24:47 2018
+10/02/2018 09:31:41  L    Job is a top job and will run at Tue Oct  2 15:24:47 2018
+10/02/2018 09:32:11  L    Job is a top job and will run at Tue Oct  2 15:26:47 2018
+10/02/2018 09:32:41  L    Job is a top job and will run at Tue Oct  2 15:26:47 2018
+10/02/2018 09:33:13  L    Job is a top job and will run at Tue Oct  2 15:26:47 2018
+10/02/2018 09:33:53  L    Job is a top job and will run at Tue Oct  2 15:03:36 2018
+10/02/2018 09:34:23  L    Job is a top job and will run at Tue Oct  2 14:37:54 2018
+10/02/2018 09:34:53  L    Job is a top job and will run at Tue Oct  2 14:37:54 2018
+10/02/2018 09:35:25  L    Job is a top job and will run at Tue Oct  2 14:37:54 2018
+10/02/2018 09:35:57  L    Job is a top job and will run at Tue Oct  2 14:37:54 2018
+10/02/2018 09:36:28  L    Job is a top job and will run at Tue Oct  2 14:25:44 2018
+10/02/2018 09:37:01  L    Job is a top job and will run at Tue Oct  2 14:25:44 2018
+10/02/2018 09:37:32  L    Job is a top job and will run at Tue Oct  2 14:25:44 2018
+10/02/2018 09:38:04  L    Job is a top job and will run at Tue Oct  2 14:25:44 2018
+10/02/2018 09:38:36  L    Job is a top job and will run at Tue Oct  2 14:25:44 2018
+10/02/2018 09:39:08  L    Job is a top job and will run at Tue Oct  2 14:25:44 2018
+10/02/2018 09:39:39  L    Job is a top job and will run at Tue Oct  2 14:08:06 2018
+10/02/2018 09:40:10  L    Job is a top job and will run at Tue Oct  2 14:08:06 2018
+10/02/2018 09:40:41  L    Job is a top job and will run at Tue Oct  2 14:08:06 2018
+10/02/2018 09:41:05  L    Job is a top job and will run at Tue Oct  2 14:08:06 2018
+10/02/2018 09:41:30  L    Job is a top job and will run at Tue Oct  2 14:08:06 2018
+10/02/2018 09:41:55  L    Job is a top job and will run at Tue Oct  2 13:57:17 2018
+10/02/2018 09:42:21  L    Job is a top job and will run at Tue Oct  2 13:57:17 2018
+10/02/2018 09:42:49  L    Job is a top job and will run at Tue Oct  2 13:57:17 2018
+10/02/2018 09:43:14  L    Job is a top job and will run at Tue Oct  2 13:57:17 2018
+10/02/2018 09:43:39  L    Job is a top job and will run at Tue Oct  2 13:57:17 2018
+10/02/2018 09:44:06  L    Job is a top job and will run at Tue Oct  2 13:57:17 2018
+10/02/2018 09:44:32  L    Job is a top job and will run at Tue Oct  2 13:57:17 2018
+10/02/2018 09:44:58  L    Job is a top job and will run at Tue Oct  2 13:57:17 2018
+10/02/2018 09:45:23  L    Job is a top job and will run at Tue Oct  2 13:57:17 2018
+10/02/2018 09:45:49  L    Job is a top job and will run at Tue Oct  2 13:57:17 2018
+10/02/2018 09:46:15  L    Job is a top job and will run at Tue Oct  2 13:26:55 2018
+10/02/2018 09:46:40  L    Job is a top job and will run at Tue Oct  2 12:42:25 2018
+10/02/2018 09:46:40  L    Queue main_has per-user limit reached on resource ncpus
+10/02/2018 09:47:05  L    Considering job to run
+10/02/2018 09:47:05  L    Job run
+10/02/2018 09:47:06  A    user=jank group=catalys project=generic jobname=XANES_sq_1 queue=main_has ctime=1538455508 qtime=1538455508 etime=1538455508 start=1538466426 exec_host=node0760/0*12 exec_vnode=(node0760:ncpus=12:mem=30720000kb) Resource_List.mem=30000mb Resource_List.mem_pnode=63000mb Resource_List.model=haswell_fit Resource_List.mpiprocs=12 Resource_List.ncpus=12 Resource_List.ncpus_pnode=24 Resource_List.nodect=1 Resource_List.place=free Resource_List.rncpus=12 Resource_List.select=1:ncpus=12:mem=30000mb:mpiprocs=12:ompthreads=1 Resource_List.walltime=06:00:00 resource_assigned.mem=30720000kb resource_assigned.ncpus=12
+
+------------------node0760------------------
+
+Job: 2831026.frontal2
+
+10/02/2018 09:47:06  M    running prologue
+10/02/2018 09:47:06  M    Started, pid = 14829
+10/02/2018 09:52:41  M    task 00000001 terminated
+10/02/2018 09:52:41  M    Terminated
+10/02/2018 09:52:41  M    task 00000001 cput= 0:34:09
+10/02/2018 09:52:41  M    node0760 cput= 0:25:42 mem=1229372kb
+10/02/2018 09:52:41  M    update_job_usage: CPU usage: 2049.596 secs
+10/02/2018 09:52:41  M    update_job_usage: Memory usage: mem=1229528kb
+10/02/2018 09:52:41  M    update_job_usage: Memory usage: vmem=1229528kb
+10/02/2018 09:52:41  M    no active tasks
+10/02/2018 09:52:41  M    copy file request received
+10/02/2018 09:52:41  M    staged 1 items out over 0:00:00
+10/02/2018 09:52:41  M    no active tasks
+10/02/2018 09:52:41  M    delete job request received
+
+
+------------------------------- Job Information ------------------------------- 
+
+Job Owner       : jank@frontal3 
+Job Project     : catalys 
+Job Name        : XANES_sq_1 
+Job Id          : 2831026.frontal2 
+Job Queue       : main_has 
+Job Exit Status : 0 
+
+Resources Requested 
+
+Number of Cores per Job                - NCPUS_PJOB  : 12
+Total Memory per Job                   - MEM_PJOB    : 30000mb
+Placement                                            : free
+Execution Time                         - WALLTIME    : 06:00:00
+
+Resources Used 
+
+Total Memory used                      - MEM              : 1229528kb
+Total CPU Time                         - CPU_Time         : 00:34:10
+Execution Time                         - Wall_Time        : 00:05:36
+Ncpus x Execution Time                 - N_Wall_Time      : 1:07:12
+CPU_Time / N_Wall_Time (%)             - ETA              : 50%
+Number of Mobilized Resources per Job  - NCPUS_EQUIV_PJOB : 12
+Mobilized Resources x Execution Time   - R_Wall_Time      : 1:07:12
+CPU_Time / R_Wall_Time (%)             - ALPHA            : 50%
+
+For metrics definition, please refer to https://tier1.cenaero.be/en/faq-page 
+
+------------------------------------------------------------------------------- 
+

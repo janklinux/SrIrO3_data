@@ -1,0 +1,405 @@
+[PROLOGUE] Starting prologue on node node0545 at date Fri Feb 16 09:32:59 CET 2018
+
+------------------------------- PBS server and MOM logs ------------------------------- 
+
+
+------------------frontal2.cenaero.be------------------
+
+Job: 1829644.frontal2
+
+02/14/2018 17:38:50  S    enqueuing into large, state 1 hop 1
+02/14/2018 17:38:50  S    dequeuing from large, state 1
+02/14/2018 17:38:50  S    enqueuing into large_ivy, state 1 hop 1
+02/14/2018 17:38:50  S    Job Queued at request of jank@frontal3, owner = jank@frontal3, job name = Ir3+_te_2, queue = large_ivy
+02/14/2018 17:38:50  A    queue=large
+02/14/2018 17:38:50  A    queue=large_ivy
+02/14/2018 23:57:02  L    Host set host=node0382 has too few free resources or is too small
+02/14/2018 23:58:43  L    Considering job to run
+02/14/2018 23:58:43  L    Job is requesting an exclusive node and node is in use
+02/15/2018 01:21:05  L    Job is a top job and will run at Fri Feb 16 12:04:40 2018
+02/15/2018 02:26:35  L    Job is a top job and will run at Fri Feb 16 13:17:56 2018
+02/15/2018 02:26:55  L    Job is a top job and will run at Fri Feb 16 13:17:56 2018
+02/15/2018 02:28:26  L    Job is a top job and will run at Fri Feb 16 13:17:56 2018
+02/15/2018 02:28:46  L    Job is a top job and will run at Fri Feb 16 13:17:56 2018
+02/15/2018 02:32:15  L    Job is a top job and will run at Fri Feb 16 13:15:03 2018
+02/15/2018 02:32:44  L    Job is a top job and will run at Fri Feb 16 13:03:44 2018
+02/15/2018 02:33:10  L    Job is a top job and will run at Fri Feb 16 13:03:44 2018
+02/15/2018 02:35:31  L    Job is a top job and will run at Fri Feb 16 13:03:44 2018
+02/15/2018 02:35:52  L    Job is a top job and will run at Fri Feb 16 13:03:44 2018
+02/15/2018 02:36:14  L    Job is a top job and will run at Fri Feb 16 13:03:44 2018
+02/15/2018 02:36:34  L    Job is a top job and will run at Fri Feb 16 13:03:44 2018
+02/15/2018 02:36:55  L    Job is a top job and will run at Fri Feb 16 13:03:44 2018
+02/15/2018 02:37:16  L    Job is a top job and will run at Fri Feb 16 13:03:44 2018
+02/15/2018 02:37:37  L    Job is a top job and will run at Fri Feb 16 13:03:44 2018
+02/15/2018 02:37:58  L    Job is a top job and will run at Fri Feb 16 13:03:44 2018
+02/15/2018 02:39:48  L    Job is a top job and will run at Fri Feb 16 13:03:44 2018
+02/15/2018 02:40:09  L    Job is a top job and will run at Fri Feb 16 13:02:30 2018
+02/15/2018 02:42:21  L    Job is a top job and will run at Fri Feb 16 13:02:30 2018
+02/15/2018 02:42:42  L    Job is a top job and will run at Fri Feb 16 13:02:30 2018
+02/15/2018 02:44:29  L    Job is a top job and will run at Fri Feb 16 13:02:30 2018
+02/15/2018 02:47:28  L    Job is a top job and will run at Fri Feb 16 13:02:30 2018
+02/15/2018 02:48:27  L    Job is a top job and will run at Fri Feb 16 13:02:30 2018
+02/15/2018 02:48:48  L    Job is a top job and will run at Fri Feb 16 13:02:30 2018
+02/15/2018 02:49:09  L    Job is a top job and will run at Fri Feb 16 13:02:30 2018
+02/15/2018 02:49:30  L    Job is a top job and will run at Fri Feb 16 13:02:30 2018
+02/15/2018 02:51:07  L    Job is a top job and will run at Fri Feb 16 13:02:30 2018
+02/15/2018 02:51:28  L    Job is a top job and will run at Fri Feb 16 13:02:30 2018
+02/15/2018 03:07:56  L    Job is a top job and will run at Fri Feb 16 12:59:43 2018
+02/15/2018 05:13:52  L    Job is a top job and will run at Fri Feb 16 11:34:20 2018
+02/15/2018 05:16:14  L    Job is a top job and will run at Fri Feb 16 12:00:00 2018
+02/15/2018 08:08:17  L    Job is a top job and will run at Fri Feb 16 05:16:23 2018
+02/15/2018 08:08:42  L    Job is a top job and will run at Fri Feb 16 05:16:23 2018
+02/15/2018 08:09:06  L    Job is a top job and will run at Fri Feb 16 05:16:23 2018
+02/15/2018 08:09:30  L    Job is a top job and will run at Fri Feb 16 05:16:23 2018
+02/15/2018 08:11:11  L    Job is a top job and will run at Fri Feb 16 05:16:23 2018
+02/15/2018 08:16:53  L    Job is a top job and will run at Fri Feb 16 05:16:23 2018
+02/15/2018 08:17:12  L    Job is a top job and will run at Fri Feb 16 05:16:23 2018
+02/15/2018 08:18:57  L    Job is a top job and will run at Fri Feb 16 05:16:23 2018
+02/15/2018 08:20:18  L    Job is a top job and will run at Fri Feb 16 05:16:23 2018
+02/15/2018 08:20:43  L    Job is a top job and will run at Fri Feb 16 05:16:23 2018
+02/15/2018 08:22:50  L    Job is a top job and will run at Fri Feb 16 05:16:23 2018
+02/15/2018 08:23:10  L    Job is a top job and will run at Fri Feb 16 05:16:23 2018
+02/15/2018 08:58:03  L    Job is a top job and will run at Fri Feb 16 05:22:15 2018
+02/15/2018 08:58:20  L    Job is a top job and will run at Fri Feb 16 08:58:06 2018
+02/15/2018 09:03:00  L    Job is a top job and will run at Fri Feb 16 08:58:10 2018
+02/15/2018 09:18:41  L    Job is a top job and will run at Fri Feb 16 10:55:52 2018
+02/15/2018 09:21:34  L    Job is a top job and will run at Fri Feb 16 11:16:28 2018
+02/15/2018 09:21:51  L    Job is a top job and will run at Fri Feb 16 03:17:01 2018
+02/15/2018 09:22:15  L    Job is a top job and will run at Fri Feb 16 03:17:01 2018
+02/15/2018 09:22:38  L    Job is a top job and will run at Fri Feb 16 03:17:01 2018
+02/15/2018 09:23:01  L    Job is a top job and will run at Fri Feb 16 03:17:01 2018
+02/15/2018 09:23:27  L    Job is a top job and will run at Fri Feb 16 03:17:01 2018
+02/15/2018 09:23:49  L    Job is a top job and will run at Fri Feb 16 03:17:01 2018
+02/15/2018 09:24:09  L    Job is a top job and will run at Fri Feb 16 03:17:01 2018
+02/15/2018 09:24:33  L    Job is a top job and will run at Fri Feb 16 03:17:01 2018
+02/15/2018 09:24:59  L    Job is a top job and will run at Fri Feb 16 03:17:01 2018
+02/15/2018 09:25:24  L    Job is a top job and will run at Fri Feb 16 03:17:01 2018
+02/15/2018 09:25:50  L    Job is a top job and will run at Fri Feb 16 03:17:01 2018
+02/15/2018 09:26:17  L    Job is a top job and will run at Fri Feb 16 03:17:01 2018
+02/15/2018 09:26:42  L    Job is a top job and will run at Fri Feb 16 03:17:01 2018
+02/15/2018 10:24:17  L    Job is a top job and will run at Fri Feb 16 05:22:29 2018
+02/15/2018 10:24:42  L    Job is a top job and will run at Fri Feb 16 10:24:32 2018
+02/15/2018 10:24:59  L    Job is a top job and will run at Fri Feb 16 10:24:49 2018
+02/15/2018 10:25:16  L    Job is a top job and will run at Fri Feb 16 10:24:53 2018
+02/15/2018 10:25:49  L    Job is a top job and will run at Fri Feb 16 10:24:53 2018
+02/15/2018 10:26:10  L    Job is a top job and will run at Fri Feb 16 10:24:53 2018
+02/15/2018 10:26:28  L    Job is a top job and will run at Fri Feb 16 10:24:53 2018
+02/15/2018 10:27:20  L    Job is a top job and will run at Fri Feb 16 10:24:53 2018
+02/15/2018 10:27:39  L    Job is a top job and will run at Fri Feb 16 10:24:53 2018
+02/15/2018 10:27:57  L    Job is a top job and will run at Fri Feb 16 10:24:53 2018
+02/15/2018 10:28:15  L    Job is a top job and will run at Fri Feb 16 10:24:53 2018
+02/15/2018 10:28:34  L    Job is a top job and will run at Fri Feb 16 10:24:53 2018
+02/15/2018 10:28:52  L    Job is a top job and will run at Fri Feb 16 10:24:53 2018
+02/15/2018 10:49:25  L    Job is a top job and will run at Fri Feb 16 10:37:18 2018
+02/15/2018 10:52:43  L    Job is a top job and will run at Fri Feb 16 09:27:05 2018
+02/15/2018 10:55:41  L    Job is a top job and will run at Fri Feb 16 14:21:26 2018
+02/15/2018 10:56:23  L    Job is a top job and will run at Fri Feb 16 14:21:26 2018
+02/15/2018 10:56:43  L    Job is a top job and will run at Fri Feb 16 14:21:26 2018
+02/15/2018 10:57:02  L    Job is a top job and will run at Fri Feb 16 14:21:26 2018
+02/15/2018 10:57:22  L    Job is a top job and will run at Fri Feb 16 14:21:26 2018
+02/15/2018 10:57:41  L    Job is a top job and will run at Fri Feb 16 14:21:26 2018
+02/15/2018 10:58:00  L    Job is a top job and will run at Fri Feb 16 14:21:26 2018
+02/15/2018 10:58:20  L    Job is a top job and will run at Fri Feb 16 14:21:26 2018
+02/15/2018 10:58:39  L    Job is a top job and will run at Fri Feb 16 14:21:26 2018
+02/15/2018 10:58:59  L    Job is a top job and will run at Fri Feb 16 14:21:26 2018
+02/15/2018 10:59:17  L    Job is a top job and will run at Fri Feb 16 14:21:26 2018
+02/15/2018 10:59:36  L    Job is a top job and will run at Fri Feb 16 10:59:26 2018
+02/15/2018 11:33:34  L    Job is a top job and will run at Fri Feb 16 10:36:07 2018
+02/15/2018 11:48:26  L    Job is a top job and will run at Fri Feb 16 15:20:26 2018
+02/15/2018 11:48:44  L    Job is a top job and will run at Fri Feb 16 15:20:26 2018
+02/15/2018 11:49:16  L    Job is a top job and will run at Fri Feb 16 15:20:26 2018
+02/15/2018 11:49:52  L    Job is a top job and will run at Fri Feb 16 15:20:26 2018
+02/15/2018 11:50:10  L    Job is a top job and will run at Fri Feb 16 15:20:26 2018
+02/15/2018 11:52:00  L    Job is a top job and will run at Fri Feb 16 15:20:26 2018
+02/15/2018 11:52:28  L    Job is a top job and will run at Fri Feb 16 15:20:26 2018
+02/15/2018 11:53:22  L    Job is a top job and will run at Fri Feb 16 15:20:26 2018
+02/15/2018 11:53:40  L    Job is a top job and will run at Fri Feb 16 15:20:26 2018
+02/15/2018 12:19:38  L    Job is a top job and will run at Fri Feb 16 14:21:24 2018
+02/15/2018 12:19:55  L    Job is a top job and will run at Fri Feb 16 14:21:24 2018
+02/15/2018 12:20:24  L    Job is a top job and will run at Fri Feb 16 14:21:24 2018
+02/15/2018 12:20:42  L    Job is a top job and will run at Fri Feb 16 14:21:24 2018
+02/15/2018 12:21:00  L    Job is a top job and will run at Fri Feb 16 14:21:24 2018
+02/15/2018 12:22:06  L    Job is a top job and will run at Fri Feb 16 14:21:24 2018
+02/15/2018 12:44:04  L    Job is a top job and will run at Fri Feb 16 14:20:26 2018
+02/15/2018 12:44:22  L    Job is a top job and will run at Fri Feb 16 12:43:13 2018
+02/15/2018 13:49:02  L    Job is a top job and will run at Fri Feb 16 10:59:31 2018
+02/15/2018 13:49:33  L    Job is a top job and will run at Fri Feb 16 17:57:33 2018
+02/15/2018 13:50:16  L    Job is a top job and will run at Fri Feb 16 17:57:33 2018
+02/15/2018 13:50:37  L    Job is a top job and will run at Fri Feb 16 17:57:33 2018
+02/15/2018 13:50:57  L    Job is a top job and will run at Fri Feb 16 17:57:33 2018
+02/15/2018 14:00:27  L    Job is a top job and will run at Fri Feb 16 17:45:16 2018
+02/15/2018 14:00:49  L    Job is a top job and will run at Fri Feb 16 17:45:16 2018
+02/15/2018 14:01:11  L    Job is a top job and will run at Fri Feb 16 17:45:16 2018
+02/15/2018 14:01:32  L    Job is a top job and will run at Fri Feb 16 17:45:16 2018
+02/15/2018 14:02:16  L    Job is a top job and will run at Fri Feb 16 17:45:16 2018
+02/15/2018 14:02:39  L    Job is a top job and will run at Fri Feb 16 17:45:16 2018
+02/15/2018 14:03:14  L    Job is a top job and will run at Fri Feb 16 17:45:16 2018
+02/15/2018 14:03:37  L    Job is a top job and will run at Fri Feb 16 17:45:16 2018
+02/15/2018 14:30:58  L    Job is a top job and will run at Fri Feb 16 15:10:07 2018
+02/15/2018 14:31:20  L    Job is a top job and will run at Fri Feb 16 16:24:39 2018
+02/15/2018 14:31:40  L    Job is a top job and will run at Fri Feb 16 16:31:29 2018
+02/15/2018 14:40:47  L    Job is a top job and will run at Fri Feb 16 16:40:38 2018
+02/15/2018 14:42:03  L    Job is a top job and will run at Fri Feb 16 16:40:39 2018
+02/15/2018 14:42:26  L    Job is a top job and will run at Fri Feb 16 16:40:39 2018
+02/15/2018 14:43:05  L    Job is a top job and will run at Fri Feb 16 16:40:39 2018
+02/15/2018 14:43:24  L    Job is a top job and will run at Fri Feb 16 16:40:39 2018
+02/15/2018 14:43:43  L    Job is a top job and will run at Fri Feb 16 16:40:39 2018
+02/15/2018 14:44:12  L    Job is a top job and will run at Fri Feb 16 16:40:39 2018
+02/15/2018 14:44:31  L    Job is a top job and will run at Fri Feb 16 16:40:39 2018
+02/15/2018 14:47:30  L    Job is a top job and will run at Fri Feb 16 16:40:39 2018
+02/15/2018 14:51:48  L    Job is a top job and will run at Fri Feb 16 16:31:33 2018
+02/15/2018 15:03:50  L    Job is a top job and will run at Fri Feb 16 17:58:33 2018
+02/15/2018 15:04:31  L    Job is a top job and will run at Fri Feb 16 15:11:07 2018
+02/15/2018 15:06:51  L    Job is a top job and will run at Fri Feb 16 15:11:07 2018
+02/15/2018 15:07:12  L    Job is a top job and will run at Fri Feb 16 15:11:07 2018
+02/15/2018 15:19:00  L    Job is a top job and will run at Fri Feb 16 17:54:52 2018
+02/15/2018 15:23:13  L    Job is a top job and will run at Fri Feb 16 16:22:32 2018
+02/15/2018 15:24:32  L    Job is a top job and will run at Fri Feb 16 16:24:22 2018
+02/15/2018 15:24:52  L    Job is a top job and will run at Fri Feb 16 16:24:27 2018
+02/15/2018 15:25:11  L    Job is a top job and will run at Fri Feb 16 16:24:27 2018
+02/15/2018 15:25:35  L    Job is a top job and will run at Fri Feb 16 16:25:25 2018
+02/15/2018 15:26:21  L    Job is a top job and will run at Fri Feb 16 16:25:27 2018
+02/15/2018 15:26:21  L    Node is in an ineligible state: offline
+02/15/2018 15:26:55  L    Job is a top job and will run at Fri Feb 16 16:26:45 2018
+02/15/2018 15:26:55  L    Node is in an ineligible state: offline
+02/15/2018 15:27:30  L    Job is a top job and will run at Fri Feb 16 16:27:20 2018
+02/15/2018 15:27:30  L    Node is in an ineligible state: offline
+02/15/2018 15:29:02  L    Job is a top job and will run at Fri Feb 16 16:27:23 2018
+02/15/2018 15:29:02  L    Node is in an ineligible state: offline
+02/15/2018 15:29:29  L    Job is a top job and will run at Fri Feb 16 16:29:19 2018
+02/15/2018 15:29:29  L    Node is in an ineligible state: offline
+02/15/2018 15:29:49  L    Job is a top job and will run at Fri Feb 16 16:29:39 2018
+02/15/2018 15:29:49  L    Node is in an ineligible state: offline
+02/15/2018 15:30:16  L    Job is a top job and will run at Fri Feb 16 16:29:41 2018
+02/15/2018 15:30:41  L    Job is a top job and will run at Fri Feb 16 16:29:41 2018
+02/15/2018 15:31:01  L    Job is a top job and will run at Fri Feb 16 16:30:52 2018
+02/15/2018 15:32:01  L    Job is a top job and will run at Fri Feb 16 16:31:51 2018
+02/15/2018 15:45:17  L    Job is a top job and will run at Fri Feb 16 16:26:48 2018
+02/15/2018 15:46:26  L    Job is a top job and will run at Fri Feb 16 16:26:48 2018
+02/15/2018 15:46:45  L    Job is a top job and will run at Fri Feb 16 16:26:48 2018
+02/15/2018 15:49:46  L    Job is a top job and will run at Fri Feb 16 16:26:48 2018
+02/15/2018 15:52:12  L    Job is a top job and will run at Fri Feb 16 16:26:48 2018
+02/15/2018 16:00:55  L    Job is a top job and will run at Fri Feb 16 18:04:21 2018
+02/15/2018 16:01:14  L    Job is a top job and will run at Fri Feb 16 16:31:56 2018
+02/15/2018 16:01:34  L    Job is a top job and will run at Fri Feb 16 16:01:22 2018
+02/15/2018 16:01:53  L    Job is a top job and will run at Fri Feb 16 16:01:23 2018
+02/15/2018 16:02:42  L    Job is a top job and will run at Fri Feb 16 16:01:23 2018
+02/15/2018 16:03:02  L    Job is a top job and will run at Fri Feb 16 16:01:23 2018
+02/15/2018 16:03:31  L    Job is a top job and will run at Fri Feb 16 16:01:23 2018
+02/15/2018 16:04:02  L    Job is a top job and will run at Fri Feb 16 16:01:23 2018
+02/15/2018 16:04:32  L    Job is a top job and will run at Fri Feb 16 16:01:23 2018
+02/15/2018 16:04:52  L    Job is a top job and will run at Fri Feb 16 16:01:23 2018
+02/15/2018 16:05:33  L    Job is a top job and will run at Fri Feb 16 16:01:23 2018
+02/15/2018 16:06:03  L    Job is a top job and will run at Fri Feb 16 16:05:52 2018
+02/15/2018 16:06:23  L    Job is a top job and will run at Fri Feb 16 16:05:57 2018
+02/15/2018 16:06:44  L    Job is a top job and will run at Fri Feb 16 16:05:57 2018
+02/15/2018 16:07:05  L    Job is a top job and will run at Fri Feb 16 16:05:57 2018
+02/15/2018 16:07:27  L    Job is a top job and will run at Fri Feb 16 16:07:16 2018
+02/15/2018 16:08:38  L    Job is a top job and will run at Fri Feb 16 05:45:16 2018
+02/15/2018 16:09:18  L    Job is a top job and will run at Fri Feb 16 05:45:16 2018
+02/15/2018 16:09:39  L    Job is a top job and will run at Fri Feb 16 05:45:16 2018
+02/15/2018 16:10:25  L    Job is a top job and will run at Fri Feb 16 05:45:16 2018
+02/15/2018 16:10:51  L    Job is a top job and will run at Fri Feb 16 05:45:16 2018
+02/15/2018 16:12:19  L    Job is a top job and will run at Fri Feb 16 05:54:52 2018
+02/15/2018 16:12:40  L    Job is a top job and will run at Fri Feb 16 05:54:52 2018
+02/15/2018 16:13:01  L    Job is a top job and will run at Fri Feb 16 05:45:16 2018
+02/15/2018 16:13:21  L    Job is a top job and will run at Fri Feb 16 05:54:52 2018
+02/15/2018 16:14:13  L    Job is a top job and will run at Fri Feb 16 05:54:52 2018
+02/15/2018 16:14:34  L    Job is a top job and will run at Fri Feb 16 05:54:52 2018
+02/15/2018 16:14:54  L    Job is a top job and will run at Fri Feb 16 05:54:52 2018
+02/15/2018 16:15:14  L    Job is a top job and will run at Fri Feb 16 05:54:52 2018
+02/15/2018 16:15:35  L    Job is a top job and will run at Fri Feb 16 05:54:52 2018
+02/15/2018 16:15:56  L    Job is a top job and will run at Fri Feb 16 05:54:52 2018
+02/15/2018 16:16:16  L    Job is a top job and will run at Fri Feb 16 05:54:52 2018
+02/15/2018 16:16:38  L    Job is a top job and will run at Fri Feb 16 05:45:46 2018
+02/15/2018 16:16:59  L    Job is a top job and will run at Fri Feb 16 16:07:16 2018
+02/15/2018 16:18:15  L    Job is a top job and will run at Fri Feb 16 16:07:16 2018
+02/15/2018 16:18:36  L    Job is a top job and will run at Fri Feb 16 16:07:16 2018
+02/15/2018 16:20:14  L    Job is a top job and will run at Fri Feb 16 16:07:16 2018
+02/15/2018 16:20:35  L    Job is a top job and will run at Fri Feb 16 16:07:16 2018
+02/15/2018 16:20:56  L    Job is a top job and will run at Fri Feb 16 16:07:16 2018
+02/15/2018 16:21:16  L    Job is a top job and will run at Fri Feb 16 16:05:57 2018
+02/15/2018 16:22:13  L    Job is a top job and will run at Fri Feb 16 16:05:57 2018
+02/15/2018 16:22:49  L    Job is a top job and will run at Fri Feb 16 16:05:57 2018
+02/15/2018 16:23:11  L    Job is a top job and will run at Fri Feb 16 16:05:57 2018
+02/15/2018 16:23:43  L    Job is a top job and will run at Fri Feb 16 16:05:57 2018
+02/15/2018 16:24:04  L    Job is a top job and will run at Fri Feb 16 16:05:57 2018
+02/15/2018 16:26:16  L    Job is a top job and will run at Fri Feb 16 16:05:57 2018
+02/15/2018 16:26:38  L    Job is a top job and will run at Fri Feb 16 16:05:57 2018
+02/15/2018 16:27:00  L    Job is a top job and will run at Fri Feb 16 16:05:57 2018
+02/15/2018 16:27:51  L    Job is a top job and will run at Fri Feb 16 16:05:57 2018
+02/15/2018 16:28:17  L    Job is a top job and will run at Fri Feb 16 18:06:56 2018
+02/15/2018 16:28:33  L    Job is a top job and will run at Fri Feb 16 18:06:56 2018
+02/15/2018 16:29:36  L    Job is a top job and will run at Fri Feb 16 18:06:56 2018
+02/15/2018 16:29:54  L    Job is a top job and will run at Fri Feb 16 18:13:07 2018
+02/15/2018 16:30:12  L    Job is a top job and will run at Fri Feb 16 18:13:07 2018
+02/15/2018 16:30:29  L    Job is a top job and will run at Fri Feb 16 18:13:07 2018
+02/15/2018 17:04:56  L    Job is a top job and will run at Fri Feb 16 20:00:11 2018
+02/15/2018 17:05:29  L    Job is a top job and will run at Fri Feb 16 20:00:11 2018
+02/15/2018 17:06:00  L    Job is a top job and will run at Fri Feb 16 20:00:11 2018
+02/15/2018 17:06:56  L    Job is a top job and will run at Fri Feb 16 20:00:11 2018
+02/15/2018 17:07:26  L    Job is a top job and will run at Fri Feb 16 20:00:11 2018
+02/15/2018 17:07:54  L    Job is a top job and will run at Fri Feb 16 20:00:11 2018
+02/15/2018 17:08:25  L    Job is a top job and will run at Fri Feb 16 20:00:11 2018
+02/15/2018 17:08:54  L    Job is a top job and will run at Fri Feb 16 20:00:11 2018
+02/15/2018 17:09:23  L    Job is a top job and will run at Fri Feb 16 20:00:11 2018
+02/15/2018 17:24:29  L    Job is a top job and will run at Fri Feb 16 20:16:28 2018
+02/15/2018 18:01:27  L    Job is a top job and will run at Fri Feb 16 19:40:05 2018
+02/15/2018 18:14:54  L    Job is a top job and will run at Fri Feb 16 17:48:47 2018
+02/15/2018 18:28:23  L    Job is a top job and will run at Fri Feb 16 20:22:38 2018
+02/15/2018 18:32:09  L    Job is a top job and will run at Fri Feb 16 23:22:38 2018
+02/15/2018 18:32:46  L    Job is a top job and will run at Fri Feb 16 23:22:38 2018
+02/15/2018 19:28:52  L    Job is a top job and will run at Fri Feb 16 23:18:16 2018
+02/15/2018 19:37:08  L    Job is a top job and will run at Fri Feb 16 21:23:27 2018
+02/15/2018 21:18:58  L    Job is a top job and will run at Sat Feb 17 05:21:54 2018
+02/15/2018 21:19:46  L    Job is a top job and will run at Fri Feb 16 20:28:52 2018
+02/15/2018 21:20:55  L    Job is a top job and will run at Fri Feb 16 20:19:51 2018
+02/15/2018 21:34:40  L    Job is a top job and will run at Fri Feb 16 21:33:04 2018
+02/15/2018 21:35:28  L    Job is a top job and will run at Fri Feb 16 21:33:19 2018
+02/15/2018 21:36:18  L    Job is a top job and will run at Fri Feb 16 21:33:19 2018
+02/15/2018 21:37:07  L    Job is a top job and will run at Fri Feb 16 21:33:19 2018
+02/15/2018 21:38:02  L    Job is a top job and will run at Sat Feb 17 01:51:45 2018
+02/15/2018 21:38:51  L    Job is a top job and will run at Fri Feb 16 21:38:20 2018
+02/15/2018 21:39:37  L    Job is a top job and will run at Fri Feb 16 21:33:19 2018
+02/15/2018 21:40:25  L    Job is a top job and will run at Fri Feb 16 21:33:19 2018
+02/15/2018 21:41:13  L    Job is a top job and will run at Fri Feb 16 21:33:19 2018
+02/15/2018 21:41:56  L    Job is a top job and will run at Fri Feb 16 21:33:19 2018
+02/15/2018 21:42:41  L    Job is a top job and will run at Fri Feb 16 21:33:19 2018
+02/15/2018 21:43:24  L    Job is a top job and will run at Fri Feb 16 21:33:19 2018
+02/15/2018 21:44:08  L    Job is a top job and will run at Fri Feb 16 21:33:19 2018
+02/15/2018 21:44:56  L    Job is a top job and will run at Fri Feb 16 21:33:19 2018
+02/15/2018 21:46:00  L    Job is a top job and will run at Fri Feb 16 21:33:19 2018
+02/15/2018 22:01:13  L    Job is a top job and will run at Fri Feb 16 22:00:00 2018
+02/15/2018 22:30:22  L    Job is a top job and will run at Fri Feb 16 21:20:36 2018
+02/15/2018 23:59:03  L    Job is a top job and will run at Sat Feb 17 03:17:01 2018
+02/16/2018 01:37:26  L    Job is a top job and will run at Sat Feb 17 03:08:17 2018
+02/16/2018 02:06:07  L    Job is a top job and will run at Sat Feb 17 03:20:58 2018
+02/16/2018 02:43:09  L    Job is a top job and will run at Sat Feb 17 03:21:16 2018
+02/16/2018 03:18:13  L    Job is a top job and will run at Sat Feb 17 03:18:04 2018
+02/16/2018 03:18:33  L    Job is a top job and will run at Sat Feb 17 03:18:24 2018
+02/16/2018 03:19:19  L    Job is a top job and will run at Sat Feb 17 03:18:44 2018
+02/16/2018 03:19:41  L    Job is a top job and will run at Sat Feb 17 03:18:44 2018
+02/16/2018 07:45:30  L    Job is a top job and will run at Sat Feb 17 03:18:28 2018
+02/16/2018 08:34:10  L    Job is a top job and will run at Sat Feb 17 03:09:19 2018
+02/16/2018 08:41:21  L    Job is a top job and will run at Sat Feb 17 03:09:19 2018
+02/16/2018 09:14:21  L    Job is a top job and will run at Sat Feb 17 03:09:19 2018
+02/16/2018 09:15:50  L    Job is a top job and will run at Sat Feb 17 03:09:19 2018
+02/16/2018 09:18:13  L    Job is a top job and will run at Sat Feb 17 03:09:19 2018
+02/16/2018 09:26:23  L    Job is a top job and will run at Sat Feb 17 01:40:44 2018
+02/16/2018 09:26:42  L    Job is a top job and will run at Sat Feb 17 01:40:44 2018
+02/16/2018 09:27:15  L    Job is a top job and will run at Sat Feb 17 01:40:44 2018
+02/16/2018 09:27:41  L    Job is a top job and will run at Sat Feb 17 01:40:44 2018
+02/16/2018 09:27:58  L    Job is a top job and will run at Sat Feb 17 01:40:44 2018
+02/16/2018 09:28:20  L    Job is a top job and will run at Sat Feb 17 01:40:44 2018
+02/16/2018 09:28:37  L    Job is a top job and will run at Sat Feb 17 01:40:44 2018
+02/16/2018 09:28:55  L    Job is a top job and will run at Sat Feb 17 01:40:44 2018
+02/16/2018 09:29:12  L    Job is a top job and will run at Sat Feb 17 01:40:44 2018
+02/16/2018 09:29:31  L    Job is a top job and will run at Sat Feb 17 01:40:44 2018
+02/16/2018 09:32:42  L    Job is a top job and will run at Sat Feb 17 03:27:13 2018
+02/16/2018 09:32:59  L    Job run
+02/16/2018 09:32:59  A    user=jank group=catalys project=generic jobname=Ir3+_te_2 queue=large_ivy ctime=1518626330 qtime=1518626330 etime=1518626330 start=1518769979 exec_host=node0545/0*24+node0539/0*24+node0544/0*24+node0546/0*24 exec_vnode=(node0545:ncpus=24:mem=64512000kb)+(node0539:ncpus=24:mem=64512000kb)+(node0544:ncpus=24:mem=64512000kb)+(node0546:ncpus=24:mem=64512000kb) Resource_List.mem=252000mb Resource_List.mem_pnode=63000mb Resource_List.mpiprocs=96 Resource_List.ncpus=96 Resource_List.ncpus_pnode=24 Resource_List.nodect=4 Resource_List.place=exclhost Resource_List.rncpus=96 Resource_List.select=4:ncpus=24:mem=63000mb:mpiprocs=24:ompthreads=1 Resource_List.walltime=24:00:00 resource_assigned.mem=252000mb resource_assigned.ncpus=96 resource_assigned.vmem=252000mb
+02/16/2018 11:41:41  S    Added 96 cpu licenses, total 96
+02/16/2018 11:41:41  S    fully licensed
+02/16/2018 11:42:41  S    Added 96 cpu licenses, total 96
+02/16/2018 11:42:41  S    fully licensed
+02/16/2018 11:43:41  S    Added 96 cpu licenses, total 96
+02/16/2018 11:43:41  S    fully licensed
+02/16/2018 11:44:42  S    Added 96 cpu licenses, total 96
+02/16/2018 11:44:42  S    fully licensed
+02/16/2018 11:45:41  S    Added 96 cpu licenses, total 96
+02/16/2018 11:45:41  S    fully licensed
+02/16/2018 11:46:42  S    Added 96 cpu licenses, total 96
+02/16/2018 11:46:42  S    fully licensed
+02/16/2018 11:47:41  S    Added 96 cpu licenses, total 96
+02/16/2018 11:47:41  S    fully licensed
+02/16/2018 13:13:41  S    Added 96 cpu licenses, total 96
+02/16/2018 13:13:41  S    fully licensed
+02/16/2018 13:14:42  S    Added 96 cpu licenses, total 96
+02/16/2018 13:14:42  S    fully licensed
+
+------------------node0545------------------
+
+Job: 1829644.frontal2
+
+02/16/2018 09:32:59  M    no active tasks
+02/16/2018 09:32:59  M    no active tasks
+02/16/2018 09:32:59  M    running prologue
+02/16/2018 09:32:59  M    Started, pid = 118049
+02/16/2018 14:24:59  M    task 00000001 terminated
+02/16/2018 14:24:59  M    Terminated
+02/16/2018 14:24:59  M    task 00000001 cput=116:32:29
+02/16/2018 14:24:59  M    node0545 cput=115:49:31 mem=5125052kb
+02/16/2018 14:24:59  M    node0539 cput=116:33:28 mem=5099576kb
+02/16/2018 14:24:59  M    node0544 cput=116:34:06 mem=5113512kb
+02/16/2018 14:24:59  M    node0546 cput=116:34:13 mem=5098764kb
+02/16/2018 14:24:59  M    update_job_usage: CPU usage: 419612.717 secs
+02/16/2018 14:24:59  M    update_job_usage: Memory usage: mem=5145624kb
+02/16/2018 14:24:59  M    update_job_usage: Memory usage: vmem=5145624kb
+02/16/2018 14:24:59  M    no active tasks
+02/16/2018 14:24:59  M    copy file request received
+02/16/2018 14:24:59  M    staged 1 items out over 0:00:00
+02/16/2018 14:24:59  M    no active tasks
+02/16/2018 14:24:59  M    delete job request received
+
+------------------node0539------------------
+
+
+02/16/2018 09:32:59  M    JOIN_JOB as node 1
+02/16/2018 09:33:00  M    task 02000001 started, /softs/intel/impi/5.0.3.049/intel64/bin/pmi_proxy
+02/16/2018 14:24:59  M    task 02000001 terminated
+02/16/2018 14:24:59  M    KILL_JOB received
+02/16/2018 14:24:59  M    task 02000001 cput=116:32:24
+02/16/2018 14:25:00  M    no active tasks
+
+------------------node0544------------------
+
+
+02/16/2018 09:32:59  M    JOIN_JOB as node 2
+02/16/2018 09:33:00  M    task 04000001 started, /softs/intel/impi/5.0.3.049/intel64/bin/pmi_proxy
+02/16/2018 14:24:59  M    task 04000001 terminated
+02/16/2018 14:24:59  M    KILL_JOB received
+02/16/2018 14:24:59  M    task 04000001 cput=116:33:02
+02/16/2018 14:25:00  M    no active tasks
+
+------------------node0546------------------
+
+
+02/16/2018 09:32:59  M    JOIN_JOB as node 3
+02/16/2018 09:33:00  M    task 06000001 started, /softs/intel/impi/5.0.3.049/intel64/bin/pmi_proxy
+02/16/2018 14:24:59  M    task 06000001 terminated
+02/16/2018 14:24:59  M    KILL_JOB received
+02/16/2018 14:24:59  M    task 06000001 cput=116:33:09
+02/16/2018 14:25:00  M    no active tasks
+
+
+------------------------------- Job Information ------------------------------- 
+
+Job Owner       : jank@frontal3 
+Job Project     : catalys 
+Job Name        : Ir3+_te_2 
+Job Id          : 1829644.frontal2 
+Job Queue       : large_ivy 
+Job Exit Status : 0 
+
+Resources Requested 
+
+Number of Cores per Job                - NCPUS_PJOB  : 96
+Total Memory per Job                   - MEM_PJOB    : 252000mb
+Placement                                            : exclhost
+Execution Time                         - WALLTIME    : 24:00:00
+
+Resources Used 
+
+Total Memory used                      - MEM              : 20457476kb
+Total CPU Time                         - CPU_Time         : 466:15:20
+Execution Time                         - Wall_Time        : 04:52:00
+Ncpus x Execution Time                 - N_Wall_Time      : 467:12:00
+CPU_Time / N_Wall_Time (%)             - ETA              : 99%
+Number of Mobilized Resources per Job  - NCPUS_EQUIV_PJOB : 96
+Mobilized Resources x Execution Time   - R_Wall_Time      : 467:12:00
+CPU_Time / R_Wall_Time (%)             - ALPHA            : 99%
+
+For metrics definition, please refer to https://tier1.cenaero.be/en/faq-page 
+
+------------------------------------------------------------------------------- 
+

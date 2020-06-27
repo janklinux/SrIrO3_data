@@ -1,0 +1,15 @@
+#!/bin/bash
+#PBS -N XANES_JNAM
+#PBS -r y
+#PBS -q main
+#PBS -W group_list=catalys
+#PBS -l walltime=144:00:00 
+#PBS -l select=1:ncpus=24:mem=30000mb:mpiprocs=24:ompthreads=1
+#PBS -M jan.kloppenburg@uclouvain.be
+#PBS -m ae
+
+cd JDIR
+
+xz -d vasprun.xml.xz
+python ~/python-tools/xanes/periodic_xanes.py
+xz -z9e vasprun.xml

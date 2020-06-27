@@ -1,0 +1,44 @@
+ Number of processors =           12
+ Calculating LDOS ...
+              LDOS calculation for specified grid
+ Calculating energy and space dependent l-DOS.
+ It takes time ...
+     potential type  0
+     potential type  1
+     potential type  2
+     potential type  3
+ Number of energy points = 101
+ Doing FMS for a cluster of 157 atoms around iph =  0
+    7   FMS matrix (LUD) at point  20, number of state kets =2512
+    3   FMS matrix (LUD) at point  40, number of state kets =2512
+   11   FMS matrix (LUD) at point  60, number of state kets =2512
+    7   FMS matrix (LUD) at point  80, number of state kets =2512
+    3   FMS matrix (LUD) at point 100, number of state kets =2512
+ Number of energy points = 101
+ Doing FMS for a cluster of 155 atoms around iph =  1
+    7   FMS matrix (LUD) at point  20, number of state kets =2480
+    3   FMS matrix (LUD) at point  40, number of state kets =2480
+   11   FMS matrix (LUD) at point  60, number of state kets =2480
+    7   FMS matrix (LUD) at point  80, number of state kets =2480
+    3   FMS matrix (LUD) at point 100, number of state kets =2480
+ Number of energy points = 101
+ Doing FMS for a cluster of 148 atoms around iph =  2
+    7   FMS matrix (LUD) at point  20, number of state kets =2368
+    3   FMS matrix (LUD) at point  40, number of state kets =2368
+   11   FMS matrix (LUD) at point  60, number of state kets =2368
+    7   FMS matrix (LUD) at point  80, number of state kets =2368
+    3   FMS matrix (LUD) at point 100, number of state kets =2368
+ Number of energy points = 101
+ Doing FMS for a cluster of 145 atoms around iph =  3
+    7   FMS matrix (LUD) at point  20, number of state kets =2320
+    3   FMS matrix (LUD) at point  40, number of state kets =2320
+   11   FMS matrix (LUD) at point  60, number of state kets =2320
+    7   FMS matrix (LUD) at point  80, number of state kets =2320
+    3   FMS matrix (LUD) at point 100, number of state kets =2320
+ Calculating chi and rho...    0
+ Calculating chi and rho...    1
+ Calculating chi and rho...    2
+ Calculating chi and rho...    3
+ Done with LDOS.
+ total time       117.201941013336     
+ communicate time   1.41339349746704     

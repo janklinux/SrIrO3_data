@@ -1,0 +1,149 @@
+[PROLOGUE] Starting prologue on node node0499 at date Tue Jan 16 18:58:55 CET 2018
+
+------------------------------- PBS server and MOM logs ------------------------------- 
+
+
+------------------frontal2.cenaero.be------------------
+
+Job: 1716872.frontal2
+
+01/16/2018 14:04:49  S    enqueuing into large, state 1 hop 1
+01/16/2018 14:04:49  S    dequeuing from large, state 1
+01/16/2018 14:04:49  S    enqueuing into large_ivy, state 1 hop 1
+01/16/2018 14:04:49  S    Job Queued at request of jank@frontal3, owner = jank@frontal3, job name = rom_1sr, queue = large_ivy
+01/16/2018 14:04:49  A    queue=large
+01/16/2018 14:04:49  A    queue=large_ivy
+01/16/2018 14:24:32  L    Job would conflict with reservation or top job
+01/16/2018 15:00:40  L    Job is a top job and will run at Wed Jan 17 05:29:32 2018
+01/16/2018 15:21:59  L    Job is a top job and will run at Wed Jan 17 06:02:58 2018
+01/16/2018 16:45:54  L    Job is a top job and will run at Wed Jan 17 05:05:56 2018
+01/16/2018 16:53:22  L    Job is a top job and will run at Wed Jan 17 04:55:59 2018
+01/16/2018 16:54:05  L    Job is a top job and will run at Wed Jan 17 04:55:59 2018
+01/16/2018 16:54:46  L    Job is a top job and will run at Wed Jan 17 04:55:59 2018
+01/16/2018 16:56:20  L    Job is a top job and will run at Wed Jan 17 04:55:59 2018
+01/16/2018 16:56:54  L    Job is a top job and will run at Wed Jan 17 04:55:59 2018
+01/16/2018 16:57:34  L    Job is a top job and will run at Wed Jan 17 04:55:59 2018
+01/16/2018 16:58:17  L    Job is a top job and will run at Wed Jan 17 04:55:59 2018
+01/16/2018 16:58:57  L    Job is a top job and will run at Wed Jan 17 04:55:59 2018
+01/16/2018 16:59:36  L    Job is a top job and will run at Wed Jan 17 04:55:59 2018
+01/16/2018 17:54:53  L    Job is a top job and will run at Wed Jan 17 05:09:23 2018
+01/16/2018 17:56:33  L    Job is a top job and will run at Wed Jan 17 05:12:46 2018
+01/16/2018 17:57:14  L    Job is a top job and will run at Wed Jan 17 01:53:18 2018
+01/16/2018 17:58:01  L    Job is a top job and will run at Wed Jan 17 01:53:18 2018
+01/16/2018 17:58:48  L    Job is a top job and will run at Wed Jan 17 01:09:00 2018
+01/16/2018 17:59:34  L    Job is a top job and will run at Wed Jan 17 01:09:00 2018
+01/16/2018 18:00:15  L    Job is a top job and will run at Wed Jan 17 01:09:00 2018
+01/16/2018 18:01:08  L    Job is a top job and will run at Wed Jan 17 01:09:00 2018
+01/16/2018 18:01:48  L    Job is a top job and will run at Wed Jan 17 01:09:00 2018
+01/16/2018 18:01:48  L    Job is requesting an exclusive node and node is in use
+01/16/2018 18:02:29  L    Job is a top job and will run at Wed Jan 17 00:38:10 2018
+01/16/2018 18:03:11  L    Job is a top job and will run at Wed Jan 17 00:38:10 2018
+01/16/2018 18:03:57  L    Job is a top job and will run at Wed Jan 17 00:38:10 2018
+01/16/2018 18:04:51  L    Job is a top job and will run at Wed Jan 17 00:38:10 2018
+01/16/2018 18:05:39  L    Job is a top job and will run at Wed Jan 17 00:01:51 2018
+01/16/2018 18:06:31  L    Job is a top job and will run at Wed Jan 17 00:01:51 2018
+01/16/2018 18:07:09  L    Job is a top job and will run at Wed Jan 17 00:01:51 2018
+01/16/2018 18:07:48  L    Job is a top job and will run at Wed Jan 17 00:01:51 2018
+01/16/2018 18:08:39  L    Job is a top job and will run at Wed Jan 17 00:01:51 2018
+01/16/2018 18:09:15  L    Job is a top job and will run at Wed Jan 17 00:01:51 2018
+01/16/2018 18:09:50  L    Job is a top job and will run at Wed Jan 17 00:01:51 2018
+01/16/2018 18:10:28  L    Job is a top job and will run at Wed Jan 17 00:01:51 2018
+01/16/2018 18:11:09  L    Job is a top job and will run at Wed Jan 17 00:10:55 2018
+01/16/2018 18:27:38  L    Job is a top job and will run at Wed Jan 17 00:10:59 2018
+01/16/2018 18:57:59  L    Host set host=node0381 has too few free resources or is too small
+01/16/2018 18:57:59  L    Job is a top job and will run at Tue Jan 16 23:58:27 2018
+01/16/2018 18:58:54  L    Considering job to run
+01/16/2018 18:58:54  L    Job run
+01/16/2018 18:58:54  A    user=jank group=catalys project=generic jobname=rom_1sr queue=large_ivy ctime=1516107889 qtime=1516107889 etime=1516107889 start=1516125534 exec_host=node0499/0*24+node0500/0*24+node0503/0*24+node0505/0*24 exec_vnode=(node0499:ncpus=24:mem=64512000kb)+(node0500:ncpus=24:mem=64512000kb)+(node0503:ncpus=24:mem=64512000kb)+(node0505:ncpus=24:mem=64512000kb) Resource_List.mem=252000mb Resource_List.mem_pnode=63000mb Resource_List.mpiprocs=96 Resource_List.ncpus=96 Resource_List.ncpus_pnode=24 Resource_List.nodect=4 Resource_List.place=exclhost Resource_List.rncpus=96 Resource_List.select=4:ncpus=24:mem=63000mb:mpiprocs=24:ompthreads=1 Resource_List.walltime=24:00:00 resource_assigned.mem=252000mb resource_assigned.ncpus=96 resource_assigned.vmem=252000mb
+01/16/2018 19:15:27  S    Added 96 cpu licenses, total 96
+01/16/2018 19:15:27  S    fully licensed
+
+------------------node0499------------------
+
+Job: 1716872.frontal2
+
+01/16/2018 18:58:55  M    no active tasks
+01/16/2018 18:58:55  M    no active tasks
+01/16/2018 18:58:55  M    running prologue
+01/16/2018 18:58:55  M    Started, pid = 56353
+01/16/2018 19:54:17  M    task 00000001 terminated
+01/16/2018 19:54:17  M    Terminated
+01/16/2018 19:54:18  M    task 00000001 cput=22:00:21
+01/16/2018 19:54:18  M    node0499 cput=21:30:46 mem=2219248kb
+01/16/2018 19:54:18  M    node0500 cput=21:59:50 mem=2356600kb
+01/16/2018 19:54:18  M    node0503 cput=22:00:49 mem=2422016kb
+01/16/2018 19:54:18  M    node0505 cput=22:01:22 mem=2402180kb
+01/16/2018 19:54:18  M    update_job_usage: CPU usage: 79232.708 secs
+01/16/2018 19:54:18  M    update_job_usage: Memory usage: mem=2418608kb
+01/16/2018 19:54:18  M    update_job_usage: Memory usage: vmem=2418608kb
+01/16/2018 19:54:18  M    no active tasks
+01/16/2018 19:54:18  M    copy file request received
+01/16/2018 19:54:18  M    staged 1 items out over 0:00:00
+01/16/2018 19:54:18  M    no active tasks
+01/16/2018 19:54:18  M    delete job request received
+
+------------------node0500------------------
+
+
+01/16/2018 18:58:55  M    JOIN_JOB as node 1
+01/16/2018 18:58:57  M    no active tasks
+01/16/2018 18:58:57  M    task 02000001 started, /softs/intel/impi/5.0.3.049/intel64/bin/pmi_proxy
+01/16/2018 19:54:17  M    task 02000001 terminated
+01/16/2018 19:54:17  M    KILL_JOB received
+01/16/2018 19:54:18  M    task 02000001 cput=21:59:38
+01/16/2018 19:54:19  M    no active tasks
+
+------------------node0503------------------
+
+
+01/16/2018 18:58:55  M    JOIN_JOB as node 2
+01/16/2018 18:58:57  M    no active tasks
+01/16/2018 18:58:57  M    task 04000001 started, /softs/intel/impi/5.0.3.049/intel64/bin/pmi_proxy
+01/16/2018 19:54:17  M    task 04000001 terminated
+01/16/2018 19:54:17  M    KILL_JOB received
+01/16/2018 19:54:18  M    task 04000001 cput=22:00:38
+01/16/2018 19:54:18  M    no active tasks
+
+------------------node0505------------------
+
+
+01/16/2018 18:58:55  M    JOIN_JOB as node 3
+01/16/2018 18:58:57  M    no active tasks
+01/16/2018 18:58:57  M    task 06000001 started, /softs/intel/impi/5.0.3.049/intel64/bin/pmi_proxy
+01/16/2018 19:54:17  M    task 06000001 terminated
+01/16/2018 19:54:17  M    KILL_JOB received
+01/16/2018 19:54:18  M    task 06000001 cput=22:01:09
+01/16/2018 19:54:19  M    no active tasks
+
+
+------------------------------- Job Information ------------------------------- 
+
+Job Owner       : jank@frontal3 
+Job Project     : catalys 
+Job Name        : rom_1sr 
+Job Id          : 1716872.frontal2 
+Job Queue       : large_ivy 
+Job Exit Status : 0 
+
+Resources Requested 
+
+Number of Cores per Job                - NCPUS_PJOB  : 96
+Total Memory per Job                   - MEM_PJOB    : 252000mb
+Placement                                            : exclhost
+Execution Time                         - WALLTIME    : 24:00:00
+
+Resources Used 
+
+Total Memory used                      - MEM              : 9599404kb
+Total CPU Time                         - CPU_Time         : 88:02:34
+Execution Time                         - Wall_Time        : 00:55:23
+Ncpus x Execution Time                 - N_Wall_Time      : 88:36:48
+CPU_Time / N_Wall_Time (%)             - ETA              : 99%
+Number of Mobilized Resources per Job  - NCPUS_EQUIV_PJOB : 96
+Mobilized Resources x Execution Time   - R_Wall_Time      : 88:36:48
+CPU_Time / R_Wall_Time (%)             - ALPHA            : 99%
+
+For metrics definition, please refer to https://tier1.cenaero.be/en/faq-page 
+
+------------------------------------------------------------------------------- 
+

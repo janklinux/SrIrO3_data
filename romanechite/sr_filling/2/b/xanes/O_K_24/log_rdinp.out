@@ -1,0 +1,12 @@
+ Number of processors =           12
+ FEFF 9.6.4
+Resetting lmaxsc to 2 for iph =    2.  Use  UNFREEZE to prevent this.
+ Core hole lifetime is   0.155863918993391      eV.
+ comment: None given
+ Source:
+ Structure Summary:  Sr2 Ir10 O20
+ Reduced formula:  Sr(IrO2)5
+ space group: (P2/m), space number:  (10)
+ abc: 13.077092   3.145915   9.608666
+ angles: 90.000000  92.525773  90.000000
+ sites: 32

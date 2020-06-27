@@ -1,0 +1,133 @@
+[PROLOGUE] Starting prologue on node node0465 at date Sat Feb 17 19:13:17 CET 2018
+
+------------------------------- PBS server and MOM logs ------------------------------- 
+
+
+------------------frontal2.cenaero.be------------------
+
+Job: 1844406.frontal2
+
+02/17/2018 19:05:02  S    enqueuing into large, state 1 hop 1
+02/17/2018 19:05:02  S    dequeuing from large, state 1
+02/17/2018 19:05:02  S    enqueuing into large_ivy, state 1 hop 1
+02/17/2018 19:05:02  S    Job Queued at request of jank@frontal3, owner = jank@frontal3, job name = Ir3+_te_3, queue = large_ivy
+02/17/2018 19:05:02  A    queue=large
+02/17/2018 19:05:02  A    queue=large_ivy
+02/17/2018 19:05:54  L    Considering job to run
+02/17/2018 19:05:54  L    Job is requesting an exclusive node and node is in use
+02/17/2018 19:06:35  L    Considering job to run
+02/17/2018 19:06:35  L    Job is requesting an exclusive node and node is in use
+02/17/2018 19:07:13  L    Considering job to run
+02/17/2018 19:07:13  L    Job is requesting an exclusive node and node is in use
+02/17/2018 19:07:52  L    Considering job to run
+02/17/2018 19:07:52  L    Job is requesting an exclusive node and node is in use
+02/17/2018 19:08:30  L    Considering job to run
+02/17/2018 19:08:30  L    Host set host=node0382 has too few free resources or is too small
+02/17/2018 19:09:07  L    Considering job to run
+02/17/2018 19:09:07  L    Host set host=node0382 has too few free resources or is too small
+02/17/2018 19:09:51  L    Considering job to run
+02/17/2018 19:09:51  L    Host set host=node0382 has too few free resources or is too small
+02/17/2018 19:10:34  L    Considering job to run
+02/17/2018 19:10:34  L    Host set host=node0382 has too few free resources or is too small
+02/17/2018 19:12:03  L    Considering job to run
+02/17/2018 19:12:03  L    Host set host=node0382 has too few free resources or is too small
+02/17/2018 19:12:40  L    Considering job to run
+02/17/2018 19:12:40  L    Host set host=node0382 has too few free resources or is too small
+02/17/2018 19:13:17  L    Considering job to run
+02/17/2018 19:13:17  L    Job run
+02/17/2018 19:13:17  A    user=jank group=catalys project=generic jobname=Ir3+_te_3 queue=large_ivy ctime=1518890702 qtime=1518890702 etime=1518890702 start=1518891197 exec_host=node0465/0*24+node0480/0*24+node0538/0*24+node0605/0*24 exec_vnode=(node0465:ncpus=24:mem=64512000kb)+(node0480:ncpus=24:mem=64512000kb)+(node0538:ncpus=24:mem=64512000kb)+(node0605:ncpus=24:mem=64512000kb) Resource_List.mem=252000mb Resource_List.mem_pnode=63000mb Resource_List.mpiprocs=96 Resource_List.ncpus=96 Resource_List.ncpus_pnode=24 Resource_List.nodect=4 Resource_List.place=exclhost Resource_List.rncpus=96 Resource_List.select=4:ncpus=24:mem=63000mb:mpiprocs=24:ompthreads=1 Resource_List.walltime=24:00:00 resource_assigned.mem=252000mb resource_assigned.ncpus=96 resource_assigned.vmem=252000mb
+02/17/2018 19:38:55  S    Added 96 cpu licenses, total 96
+02/17/2018 19:38:55  S    fully licensed
+02/17/2018 19:39:55  S    Added 96 cpu licenses, total 96
+02/17/2018 19:39:55  S    fully licensed
+02/17/2018 20:42:53  S    Added 96 cpu licenses, total 96
+02/17/2018 20:42:53  S    fully licensed
+02/17/2018 20:43:53  S    Added 96 cpu licenses, total 96
+02/17/2018 20:43:53  S    fully licensed
+
+------------------node0465------------------
+
+Job: 1844406.frontal2
+
+02/17/2018 19:13:17  M    no active tasks
+02/17/2018 19:13:17  M    no active tasks
+02/17/2018 19:13:17  M    running prologue
+02/17/2018 19:13:18  M    Started, pid = 83187
+02/17/2018 21:52:31  M    task 00000001 terminated
+02/17/2018 21:52:31  M    Terminated
+02/17/2018 21:52:31  M    task 00000001 cput=63:32:44
+02/17/2018 21:52:31  M    node0465 cput=62:54:21 mem=3455624kb
+02/17/2018 21:52:31  M    node0480 cput=63:33:47 mem=3481008kb
+02/17/2018 21:52:31  M    node0538 cput=63:33:27 mem=3419344kb
+02/17/2018 21:52:31  M    node0605 cput=63:33:59 mem=3408564kb
+02/17/2018 21:52:31  M    update_job_usage: CPU usage: 228798.671 secs
+02/17/2018 21:52:31  M    update_job_usage: Memory usage: mem=3473628kb
+02/17/2018 21:52:31  M    update_job_usage: Memory usage: vmem=3473628kb
+02/17/2018 21:52:31  M    no active tasks
+02/17/2018 21:52:31  M    copy file request received
+02/17/2018 21:52:31  M    staged 1 items out over 0:00:00
+02/17/2018 21:52:31  M    no active tasks
+02/17/2018 21:52:31  M    delete job request received
+
+------------------node0480------------------
+
+
+02/17/2018 19:13:17  M    JOIN_JOB as node 1
+02/17/2018 19:13:18  M    task 02000001 started, /softs/intel/impi/5.0.3.049/intel64/bin/pmi_proxy
+02/17/2018 21:52:31  M    task 02000001 terminated
+02/17/2018 21:52:31  M    KILL_JOB received
+02/17/2018 21:52:31  M    task 02000001 cput=63:33:12
+02/17/2018 21:52:32  M    no active tasks
+
+------------------node0538------------------
+
+
+02/17/2018 19:13:17  M    JOIN_JOB as node 2
+02/17/2018 19:13:18  M    task 04000001 started, /softs/intel/impi/5.0.3.049/intel64/bin/pmi_proxy
+02/17/2018 21:52:31  M    task 04000001 terminated
+02/17/2018 21:52:31  M    KILL_JOB received
+02/17/2018 21:52:31  M    task 04000001 cput=63:32:52
+02/17/2018 21:52:32  M    no active tasks
+
+------------------node0605------------------
+
+
+02/17/2018 19:13:17  M    JOIN_JOB as node 3
+02/17/2018 19:13:18  M    task 06000001 started, /softs/intel/impi/5.0.3.049/intel64/bin/pmi_proxy
+02/17/2018 21:52:31  M    task 06000001 terminated
+02/17/2018 21:52:31  M    KILL_JOB received
+02/17/2018 21:52:31  M    task 06000001 cput=63:33:25
+02/17/2018 21:52:32  M    no active tasks
+
+
+------------------------------- Job Information ------------------------------- 
+
+Job Owner       : jank@frontal3 
+Job Project     : catalys 
+Job Name        : Ir3+_te_3 
+Job Id          : 1844406.frontal2 
+Job Queue       : large_ivy 
+Job Exit Status : 0 
+
+Resources Requested 
+
+Number of Cores per Job                - NCPUS_PJOB  : 96
+Total Memory per Job                   - MEM_PJOB    : 252000mb
+Placement                                            : exclhost
+Execution Time                         - WALLTIME    : 24:00:00
+
+Resources Used 
+
+Total Memory used                      - MEM              : 13782544kb
+Total CPU Time                         - CPU_Time         : 254:14:32
+Execution Time                         - Wall_Time        : 02:39:14
+Ncpus x Execution Time                 - N_Wall_Time      : 254:46:24
+CPU_Time / N_Wall_Time (%)             - ETA              : 99%
+Number of Mobilized Resources per Job  - NCPUS_EQUIV_PJOB : 96
+Mobilized Resources x Execution Time   - R_Wall_Time      : 254:46:24
+CPU_Time / R_Wall_Time (%)             - ALPHA            : 99%
+
+For metrics definition, please refer to https://tier1.cenaero.be/en/faq-page 
+
+------------------------------------------------------------------------------- 
+

@@ -1,0 +1,35 @@
+ Number of processors =           12
+ Calculating LDOS ...
+              LDOS calculation for specified grid
+ Calculating energy and space dependent l-DOS.
+ It takes time ...
+     potential type  0
+     potential type  1
+     potential type  2
+ Number of energy points = 101
+ Doing FMS for a cluster of 134 atoms around iph =  0
+    7   FMS matrix (LUD) at point  20, number of state kets =2144
+    3   FMS matrix (LUD) at point  40, number of state kets =2144
+   11   FMS matrix (LUD) at point  60, number of state kets =2144
+    7   FMS matrix (LUD) at point  80, number of state kets =2144
+    3   FMS matrix (LUD) at point 100, number of state kets =2144
+ Number of energy points = 101
+ Doing FMS for a cluster of 129 atoms around iph =  1
+    7   FMS matrix (LUD) at point  20, number of state kets =2064
+    3   FMS matrix (LUD) at point  40, number of state kets =2064
+   11   FMS matrix (LUD) at point  60, number of state kets =2064
+    7   FMS matrix (LUD) at point  80, number of state kets =2064
+    3   FMS matrix (LUD) at point 100, number of state kets =2064
+ Number of energy points = 101
+ Doing FMS for a cluster of 117 atoms around iph =  2
+    7   FMS matrix (LUD) at point  20, number of state kets =1872
+    3   FMS matrix (LUD) at point  40, number of state kets =1872
+   11   FMS matrix (LUD) at point  60, number of state kets =1872
+    7   FMS matrix (LUD) at point  80, number of state kets =1872
+    3   FMS matrix (LUD) at point 100, number of state kets =1872
+ Calculating chi and rho...    0
+ Calculating chi and rho...    1
+ Calculating chi and rho...    2
+ Done with LDOS.
+ total time       53.7151441574097     
+ communicate time  3.228902816772461E-003

@@ -1,0 +1,126 @@
+[PROLOGUE] Starting prologue on node node0368 at date Tue Jan 16 20:11:28 CET 2018
+
+------------------------------- PBS server and MOM logs ------------------------------- 
+
+
+------------------frontal2.cenaero.be------------------
+
+Job: 1718084.frontal2
+
+01/16/2018 20:09:32  S    enqueuing into large, state 1 hop 1
+01/16/2018 20:09:32  S    dequeuing from large, state 1
+01/16/2018 20:09:32  S    enqueuing into large_ivy, state 1 hop 1
+01/16/2018 20:09:32  S    Job Queued at request of jank@frontal3, owner = jank@frontal3, job name = DOS-rom_2sr-a, queue = large_ivy
+01/16/2018 20:09:32  A    queue=large
+01/16/2018 20:09:32  A    queue=large_ivy
+01/16/2018 20:10:00  L    Considering job to run
+01/16/2018 20:10:00  L    Job is a top job and will run at Tue Jan 16 23:58:27 2018
+01/16/2018 20:10:00  L    Job is requesting an exclusive node and node is in use
+01/16/2018 20:10:34  L    Considering job to run
+01/16/2018 20:10:34  L    Job is a top job and will run at Tue Jan 16 23:58:27 2018
+01/16/2018 20:10:34  L    Job is requesting an exclusive node and node is in use
+01/16/2018 20:11:02  L    Considering job to run
+01/16/2018 20:11:02  L    Job is a top job and will run at Tue Jan 16 20:14:16 2018
+01/16/2018 20:11:02  L    Job is requesting an exclusive node and node is in use
+01/16/2018 20:11:27  L    Considering job to run
+01/16/2018 20:11:27  L    Job run
+01/16/2018 20:11:27  A    user=jank group=catalys project=generic jobname=DOS-rom_2sr-a queue=large_ivy ctime=1516129772 qtime=1516129772 etime=1516129772 start=1516129887 exec_host=node0368/0*24+node0370/0*24+node0371/0*24+node0373/0*24 exec_vnode=(node0368:ncpus=24:mem=64512000kb)+(node0370:ncpus=24:mem=64512000kb)+(node0371:ncpus=24:mem=64512000kb)+(node0373:ncpus=24:mem=64512000kb) Resource_List.mem=252000mb Resource_List.mem_pnode=63000mb Resource_List.mpiprocs=96 Resource_List.ncpus=96 Resource_List.ncpus_pnode=24 Resource_List.nodect=4 Resource_List.place=exclhost Resource_List.rncpus=96 Resource_List.select=4:ncpus=24:mem=63000mb:mpiprocs=24:ompthreads=1 Resource_List.walltime=06:00:00 resource_assigned.mem=252000mb resource_assigned.ncpus=96 resource_assigned.vmem=252000mb
+01/16/2018 20:25:37  S    Added 96 cpu licenses, total 96
+01/16/2018 20:25:37  S    fully licensed
+01/16/2018 20:26:38  S    Added 96 cpu licenses, total 96
+01/16/2018 20:26:38  S    fully licensed
+01/16/2018 20:27:50  S    Added 96 cpu licenses, total 96
+01/16/2018 20:27:50  S    fully licensed
+01/16/2018 20:28:36  S    Added 96 cpu licenses, total 96
+01/16/2018 20:28:36  S    fully licensed
+01/16/2018 20:29:36  S    Added 96 cpu licenses, total 96
+01/16/2018 20:29:36  S    fully licensed
+01/16/2018 20:30:36  S    Added 96 cpu licenses, total 96
+01/16/2018 20:30:36  S    fully licensed
+
+------------------node0368------------------
+
+Job: 1718084.frontal2
+
+01/16/2018 20:11:27  M    no active tasks
+01/16/2018 20:11:27  M    no active tasks
+01/16/2018 20:11:27  M    running prologue
+01/16/2018 20:11:28  M    Started, pid = 77185
+01/16/2018 20:30:36  M    task 00000001 terminated
+01/16/2018 20:30:36  M    Terminated
+01/16/2018 20:30:36  M    task 00000001 cput= 7:37:15
+01/16/2018 20:30:36  M    node0368 cput= 7:36:35 mem=5296524kb
+01/16/2018 20:30:36  M    node0370 cput= 7:37:31 mem=5286680kb
+01/16/2018 20:30:36  M    node0371 cput= 7:37:27 mem=5284728kb
+01/16/2018 20:30:36  M    node0373 cput= 7:37:34 mem=5283256kb
+01/16/2018 20:30:36  M    update_job_usage: CPU usage: 27439.065 secs
+01/16/2018 20:30:36  M    update_job_usage: Memory usage: mem=5296524kb
+01/16/2018 20:30:36  M    update_job_usage: Memory usage: vmem=5296524kb
+01/16/2018 20:30:36  M    no active tasks
+01/16/2018 20:30:38  M    copy file request received
+01/16/2018 20:30:38  M    staged 1 items out over 0:00:00
+01/16/2018 20:30:38  M    no active tasks
+01/16/2018 20:30:38  M    delete job request received
+
+------------------node0370------------------
+
+
+01/16/2018 20:11:27  M    JOIN_JOB as node 1
+01/16/2018 20:11:28  M    task 02000001 started, /softs/intel/impi/5.0.3.049/intel64/bin/pmi_proxy
+01/16/2018 20:30:36  M    task 02000001 terminated
+01/16/2018 20:30:36  M    KILL_JOB received
+01/16/2018 20:30:36  M    task 02000001 cput= 7:37:27
+01/16/2018 20:30:37  M    no active tasks
+
+------------------node0371------------------
+
+
+01/16/2018 20:11:27  M    JOIN_JOB as node 2
+01/16/2018 20:11:28  M    task 04000001 started, /softs/intel/impi/5.0.3.049/intel64/bin/pmi_proxy
+01/16/2018 20:30:36  M    task 04000001 terminated
+01/16/2018 20:30:36  M    KILL_JOB received
+01/16/2018 20:30:36  M    task 04000001 cput= 7:37:23
+01/16/2018 20:30:37  M    no active tasks
+
+------------------node0373------------------
+
+
+01/16/2018 20:11:27  M    JOIN_JOB as node 3
+01/16/2018 20:11:28  M    task 06000001 started, /softs/intel/impi/5.0.3.049/intel64/bin/pmi_proxy
+01/16/2018 20:30:36  M    task 06000001 terminated
+01/16/2018 20:30:36  M    KILL_JOB received
+01/16/2018 20:30:36  M    task 06000001 cput= 7:37:30
+01/16/2018 20:30:37  M    no active tasks
+
+
+------------------------------- Job Information ------------------------------- 
+
+Job Owner       : jank@frontal3 
+Job Project     : catalys 
+Job Name        : DOS-rom_2sr-a 
+Job Id          : 1718084.frontal2 
+Job Queue       : large_ivy 
+Job Exit Status : 0 
+
+Resources Requested 
+
+Number of Cores per Job                - NCPUS_PJOB  : 96
+Total Memory per Job                   - MEM_PJOB    : 252000mb
+Placement                                            : exclhost
+Execution Time                         - WALLTIME    : 06:00:00
+
+Resources Used 
+
+Total Memory used                      - MEM              : 21151188kb
+Total CPU Time                         - CPU_Time         : 30:29:51
+Execution Time                         - Wall_Time        : 00:19:11
+Ncpus x Execution Time                 - N_Wall_Time      : 30:41:36
+CPU_Time / N_Wall_Time (%)             - ETA              : 99%
+Number of Mobilized Resources per Job  - NCPUS_EQUIV_PJOB : 96
+Mobilized Resources x Execution Time   - R_Wall_Time      : 30:41:36
+CPU_Time / R_Wall_Time (%)             - ALPHA            : 99%
+
+For metrics definition, please refer to https://tier1.cenaero.be/en/faq-page 
+
+------------------------------------------------------------------------------- 
+

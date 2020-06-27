@@ -1,0 +1,19 @@
+   PREC   = Accurate
+   ISMEAR = -5
+   ALGO   = Fast
+   EDIFF  = 1E-7
+   ENCUT  = 400
+   NCORE  = 12
+   ISPIN  = 2
+   MAGMOM = 3*0.73 10*0.91 20*0.12
+   NELM   = 800
+   NELMDL = -5
+   LWAVE  = .FALSE.
+   LCHARG = .FALSE.
+   LREAL  = .FALSE.
+   LORBIT = 11
+NEDOS = 1001
+EMIN = -15
+EMAX = 15
+
+ICORELEVEL = 1

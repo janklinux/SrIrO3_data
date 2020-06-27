@@ -1,0 +1,123 @@
+[PROLOGUE] Starting prologue on node node0324 at date Tue Jan 16 20:07:27 CET 2018
+
+------------------------------- PBS server and MOM logs ------------------------------- 
+
+
+------------------frontal2.cenaero.be------------------
+
+Job: 1718081.frontal2
+
+01/16/2018 20:07:15  S    enqueuing into large, state 1 hop 1
+01/16/2018 20:07:15  S    dequeuing from large, state 1
+01/16/2018 20:07:15  S    enqueuing into large_ivy, state 1 hop 1
+01/16/2018 20:07:15  S    Job Queued at request of jank@frontal3, owner = jank@frontal3, job name = DOS_rom_pristine, queue = large_ivy
+01/16/2018 20:07:15  A    queue=large
+01/16/2018 20:07:15  A    queue=large_ivy
+01/16/2018 20:07:26  L    Considering job to run
+01/16/2018 20:07:26  L    Job run
+01/16/2018 20:07:26  A    user=jank group=catalys project=generic jobname=DOS_rom_pristine queue=large_ivy ctime=1516129635 qtime=1516129635 etime=1516129635 start=1516129646 exec_host=node0324/0*24+node0514/0*24+node0513/0*24+node0516/0*24 exec_vnode=(node0324:ncpus=24:mem=64512000kb)+(node0514:ncpus=24:mem=64512000kb)+(node0513:ncpus=24:mem=64512000kb)+(node0516:ncpus=24:mem=64512000kb) Resource_List.mem=252000mb Resource_List.mem_pnode=63000mb Resource_List.mpiprocs=96 Resource_List.ncpus=96 Resource_List.ncpus_pnode=24 Resource_List.nodect=4 Resource_List.place=exclhost Resource_List.rncpus=96 Resource_List.select=4:ncpus=24:mem=63000mb:mpiprocs=24:ompthreads=1 Resource_List.walltime=06:00:00 resource_assigned.mem=252000mb resource_assigned.ncpus=96 resource_assigned.vmem=252000mb
+01/16/2018 20:25:37  S    Added 96 cpu licenses, total 96
+01/16/2018 20:25:37  S    fully licensed
+01/16/2018 20:26:38  S    Added 96 cpu licenses, total 96
+01/16/2018 20:26:38  S    fully licensed
+01/16/2018 20:27:50  S    Added 96 cpu licenses, total 96
+01/16/2018 20:27:50  S    fully licensed
+01/16/2018 20:28:36  S    Added 96 cpu licenses, total 96
+01/16/2018 20:28:36  S    fully licensed
+01/16/2018 20:29:36  S    Added 96 cpu licenses, total 96
+01/16/2018 20:29:36  S    fully licensed
+01/16/2018 20:30:36  S    Added 96 cpu licenses, total 96
+01/16/2018 20:30:36  S    fully licensed
+01/16/2018 20:31:37  S    Added 96 cpu licenses, total 96
+01/16/2018 20:31:37  S    fully licensed
+01/16/2018 20:32:36  S    Added 96 cpu licenses, total 96
+01/16/2018 20:32:36  S    fully licensed
+01/16/2018 20:33:40  S    Added 96 cpu licenses, total 96
+01/16/2018 20:33:40  S    fully licensed
+
+------------------node0324------------------
+
+Job: 1718081.frontal2
+
+01/16/2018 20:07:27  M    running prologue
+01/16/2018 20:07:27  M    no active tasks
+01/16/2018 20:07:27  M    Started, pid = 57780
+01/16/2018 20:33:42  M    task 00000001 terminated
+01/16/2018 20:33:42  M    Terminated
+01/16/2018 20:33:42  M    task 00000001 cput=10:27:40
+01/16/2018 20:33:42  M    node0324 cput= 9:59:43 mem=3862236kb
+01/16/2018 20:33:42  M    node0514 cput=10:27:18 mem=6410860kb
+01/16/2018 20:33:42  M    node0513 cput=10:27:03 mem=6381256kb
+01/16/2018 20:33:42  M    node0516 cput=10:27:33 mem=6385040kb
+01/16/2018 20:33:42  M    update_job_usage: CPU usage: 37666.073 secs
+01/16/2018 20:33:42  M    update_job_usage: Memory usage: mem=6369064kb
+01/16/2018 20:33:42  M    update_job_usage: Memory usage: vmem=6369064kb
+01/16/2018 20:33:42  M    no active tasks
+01/16/2018 20:33:43  M    copy file request received
+01/16/2018 20:33:43  M    staged 1 items out over 0:00:00
+01/16/2018 20:33:43  M    no active tasks
+01/16/2018 20:33:43  M    delete job request received
+
+------------------node0513------------------
+
+
+01/16/2018 20:07:27  M    JOIN_JOB as node 2
+01/16/2018 20:07:27  M    task 04000001 started, /softs/intel/impi/5.0.3.049/intel64/bin/pmi_proxy
+01/16/2018 20:33:41  M    task 04000001 terminated
+01/16/2018 20:33:42  M    KILL_JOB received
+01/16/2018 20:33:42  M    task 04000001 cput=10:26:57
+01/16/2018 20:33:43  M    no active tasks
+01/16/2018 20:34:30  M    no active tasks
+
+------------------node0514------------------
+
+
+01/16/2018 20:07:27  M    JOIN_JOB as node 1
+01/16/2018 20:07:27  M    task 02000001 started, /softs/intel/impi/5.0.3.049/intel64/bin/pmi_proxy
+01/16/2018 20:33:41  M    task 02000001 terminated
+01/16/2018 20:33:42  M    KILL_JOB received
+01/16/2018 20:33:42  M    task 02000001 cput=10:27:12
+01/16/2018 20:33:43  M    no active tasks
+
+------------------node0516------------------
+
+
+01/16/2018 20:07:27  M    JOIN_JOB as node 3
+01/16/2018 20:07:27  M    task 06000001 started, /softs/intel/impi/5.0.3.049/intel64/bin/pmi_proxy
+01/16/2018 20:33:41  M    task 06000001 terminated
+01/16/2018 20:33:42  M    KILL_JOB received
+01/16/2018 20:33:42  M    task 06000001 cput=10:27:27
+01/16/2018 20:33:43  M    no active tasks
+
+
+------------------------------- Job Information ------------------------------- 
+
+Job Owner       : jank@frontal3 
+Job Project     : catalys 
+Job Name        : DOS_rom_pristine 
+Job Id          : 1718081.frontal2 
+Job Queue       : large_ivy 
+Job Exit Status : 0 
+
+Resources Requested 
+
+Number of Cores per Job                - NCPUS_PJOB  : 96
+Total Memory per Job                   - MEM_PJOB    : 252000mb
+Placement                                            : exclhost
+Execution Time                         - WALLTIME    : 06:00:00
+
+Resources Used 
+
+Total Memory used                      - MEM              : 25546220kb
+Total CPU Time                         - CPU_Time         : 41:49:40
+Execution Time                         - Wall_Time        : 00:26:17
+Ncpus x Execution Time                 - N_Wall_Time      : 42:03:12
+CPU_Time / N_Wall_Time (%)             - ETA              : 99%
+Number of Mobilized Resources per Job  - NCPUS_EQUIV_PJOB : 96
+Mobilized Resources x Execution Time   - R_Wall_Time      : 42:03:12
+CPU_Time / R_Wall_Time (%)             - ALPHA            : 99%
+
+For metrics definition, please refer to https://tier1.cenaero.be/en/faq-page 
+
+------------------------------------------------------------------------------- 
+

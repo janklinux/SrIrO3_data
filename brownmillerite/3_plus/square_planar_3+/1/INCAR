@@ -1,0 +1,23 @@
+SYSTEM = SrIr2O4 prototype
+PREC   = Accurate
+ISMEAR = 2
+SIGMA  = 0.2
+ALGO   = Fast
+EDIFF  = 1E-7
+ENCUT  = 400
+NCORE  = 12
+AMIN   = 0.01
+ISYM   = 0
+ISPIN  = 2
+MAGMOM = 4*0.14 8*0.91 16*0.21
+NELM   = 60
+NELMDL = -5
+LWAVE  = .FALSE.
+LCHARG = .FALSE.
+LREAL  = ON
+LORBIT = 11
+
+NSW    = 901
+EDIFFG = -1E-2
+IBRION = 2
+ISIF   = 3

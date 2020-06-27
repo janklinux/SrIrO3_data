@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -N sr_4_roman_XANES
+#PBS -r y
+#PBS -q main
+#PBS -W group_list=catalys
+#PBS -l walltime=06:00:00 
+#PBS -l select=1:ncpus=12:mem=25000mb:mpiprocs=12:ompthreads=1
+#PBS -M jan.kloppenburg@uclouvain.be
+#PBS -m ae
+
+cd /home/acad/ucl-naps/jank/catalys/projects/SrIrO3/bulk/IrO2/romanechite/sr_filling/4
+
+python ~/python-tools/xanes/pmg_xanes.py

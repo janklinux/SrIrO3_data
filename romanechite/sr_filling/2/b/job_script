@@ -1,0 +1,19 @@
+#!/bin/bash
+#PBS -N rom_2sr-b
+#PBS -r y
+#PBS -q large
+#PBS -W group_list=catalys
+#PBS -l walltime=24:00:00
+#PBS -l select=4:ncpus=24:mem=63000mb:mpiprocs=24:ompthreads=1
+#PBS -M jan.kloppenburg@uclouvain.be
+#PBS -m ae
+
+ulimit -s unlimited
+export OMP_NUM_THREADS=1
+export MKL_NUM_THREADS=1
+export MKL_DYNAMIC=FALSE
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/softs/intel/composer_xe_2015.5.223/mkl/lib/intel64
+
+cd /home/acad/ucl-naps/jank/catalys/projects/SrIrO3/bulk/IrO2/romanechite/sr_filling/2/b
+
+mpirun /home/acad/ucl-naps/jank/bin/vasp_std_large > run

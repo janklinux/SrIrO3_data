@@ -1,0 +1,114 @@
+[PROLOGUE] Starting prologue on node node0741 at date Sun Sep 23 21:29:43 CEST 2018
+/home/acad/ucl-naps/jank/tools/python/lib/python2.7/site-packages/pymatgen-2017.11.30-py2.7-linux-x86_64.egg/pymatgen/__init__.py:87: UserWarning: 
+Pymatgen will drop Py2k support from v2019.1.1. Pls consult the documentation
+at https://www.pymatgen.org for more details.
+  at https://www.pymatgen.org for more details.""")
+Atom indices in CIF file to compute:  ['0', '4', '6', '12', '13']
+Species are:  [Element Sr, Element Ir, Element Ir, Element O, Element O]
+Working on absorber O (atom# 12) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+Working on absorber O (atom# 13) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+
+------------------------------- PBS server and MOM logs ------------------------------- 
+
+
+------------------frontal2.cenaero.be------------------
+
+Job: 2757450.frontal2
+
+09/23/2018 21:29:42  S    enqueuing into main, state 1 hop 1
+09/23/2018 21:29:42  S    dequeuing from main, state 1
+09/23/2018 21:29:42  S    enqueuing into main_has, state 1 hop 1
+09/23/2018 21:29:42  S    Job Queued at request of jank@frontal3, owner = jank@frontal3, job name = XANES_sq_1, queue = main_has
+09/23/2018 21:29:42  A    queue=main
+09/23/2018 21:29:42  A    queue=main_has
+09/23/2018 21:29:43  L    Considering job to run
+09/23/2018 21:29:43  L    Job run
+09/23/2018 21:29:43  A    user=jank group=catalys project=generic jobname=XANES_sq_1 queue=main_has ctime=1537730982 qtime=1537730982 etime=1537730982 start=1537730983 exec_host=node0741/1*12 exec_vnode=(node0741:ncpus=12:mem=30720000kb) Resource_List.mem=30000mb Resource_List.mem_pnode=63000mb Resource_List.model=haswell_fit Resource_List.mpiprocs=12 Resource_List.ncpus=12 Resource_List.ncpus_pnode=24 Resource_List.nodect=1 Resource_List.place=free Resource_List.rncpus=12 Resource_List.select=1:ncpus=12:mem=30000mb:mpiprocs=12:ompthreads=1 Resource_List.walltime=12:00:00 resource_assigned.mem=30720000kb resource_assigned.ncpus=12
+
+------------------node0741------------------
+
+Job: 2757450.frontal2
+
+09/23/2018 21:29:43  M    running prologue
+09/23/2018 21:29:43  M    Started, pid = 4134
+09/23/2018 21:35:46  M    task 00000001 terminated
+09/23/2018 21:35:46  M    Terminated
+09/23/2018 21:35:46  M    task 00000001 cput= 0:33:58
+09/23/2018 21:35:46  M    node0741 cput= 0:25:42 mem=1345044kb
+09/23/2018 21:35:46  M    update_job_usage: CPU usage: 2039.103 secs
+09/23/2018 21:35:46  M    update_job_usage: Memory usage: mem=1345568kb
+09/23/2018 21:35:46  M    update_job_usage: Memory usage: vmem=1345568kb
+09/23/2018 21:35:46  M    no active tasks
+09/23/2018 21:35:46  M    copy file request received
+09/23/2018 21:35:46  M    staged 1 items out over 0:00:00
+09/23/2018 21:35:46  M    no active tasks
+09/23/2018 21:35:46  M    delete job request received
+
+
+------------------------------- Job Information ------------------------------- 
+
+Job Owner       : jank@frontal3 
+Job Project     : catalys 
+Job Name        : XANES_sq_1 
+Job Id          : 2757450.frontal2 
+Job Queue       : main_has 
+Job Exit Status : 0 
+
+Resources Requested 
+
+Number of Cores per Job                - NCPUS_PJOB  : 12
+Total Memory per Job                   - MEM_PJOB    : 30000mb
+Placement                                            : free
+Execution Time                         - WALLTIME    : 12:00:00
+
+Resources Used 
+
+Total Memory used                      - MEM              : 1345568kb
+Total CPU Time                         - CPU_Time         : 00:33:59
+Execution Time                         - Wall_Time        : 00:06:05
+Ncpus x Execution Time                 - N_Wall_Time      : 1:13:00
+CPU_Time / N_Wall_Time (%)             - ETA              : 46%
+Number of Mobilized Resources per Job  - NCPUS_EQUIV_PJOB : 12
+Mobilized Resources x Execution Time   - R_Wall_Time      : 1:13:00
+CPU_Time / R_Wall_Time (%)             - ALPHA            : 46%
+
+For metrics definition, please refer to https://tier1.cenaero.be/en/faq-page 
+
+------------------------------------------------------------------------------- 
+

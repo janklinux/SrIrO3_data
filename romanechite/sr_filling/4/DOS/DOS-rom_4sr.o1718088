@@ -1,0 +1,146 @@
+[PROLOGUE] Starting prologue on node node0365 at date Tue Jan 16 20:20:17 CET 2018
+
+------------------------------- PBS server and MOM logs ------------------------------- 
+
+
+------------------frontal2.cenaero.be------------------
+
+Job: 1718088.frontal2
+
+01/16/2018 20:12:36  S    enqueuing into large, state 1 hop 1
+01/16/2018 20:12:36  S    dequeuing from large, state 1
+01/16/2018 20:12:36  S    enqueuing into large_ivy, state 1 hop 1
+01/16/2018 20:12:36  S    Job Queued at request of jank@frontal3, owner = jank@frontal3, job name = DOS-rom_4sr, queue = large_ivy
+01/16/2018 20:12:36  A    queue=large
+01/16/2018 20:12:36  A    queue=large_ivy
+01/16/2018 20:13:08  L    Considering job to run
+01/16/2018 20:13:08  L    Job is a top job and will run at Wed Jan 17 00:35:54 2018
+01/16/2018 20:13:08  L    Job is requesting an exclusive node and node is in use
+01/16/2018 20:13:34  L    Considering job to run
+01/16/2018 20:13:34  L    Job is a top job and will run at Wed Jan 17 00:35:54 2018
+01/16/2018 20:13:34  L    Job is requesting an exclusive node and node is in use
+01/16/2018 20:14:04  L    Considering job to run
+01/16/2018 20:14:04  L    Job is a top job and will run at Wed Jan 17 00:35:54 2018
+01/16/2018 20:14:04  L    Job is requesting an exclusive node and node is in use
+01/16/2018 20:14:29  L    Considering job to run
+01/16/2018 20:14:29  L    Job is a top job and will run at Wed Jan 17 00:35:54 2018
+01/16/2018 20:14:29  L    Job is requesting an exclusive node and node is in use
+01/16/2018 20:14:55  L    Considering job to run
+01/16/2018 20:14:55  L    Job is a top job and will run at Wed Jan 17 00:35:54 2018
+01/16/2018 20:14:55  L    Job is requesting an exclusive node and node is in use
+01/16/2018 20:15:34  L    Considering job to run
+01/16/2018 20:15:34  L    Job is a top job and will run at Tue Jan 16 23:58:27 2018
+01/16/2018 20:15:34  L    Job is requesting an exclusive node and node is in use
+01/16/2018 20:16:18  L    Considering job to run
+01/16/2018 20:16:19  L    Job is a top job and will run at Tue Jan 16 23:58:27 2018
+01/16/2018 20:16:19  L    Job is requesting an exclusive node and node is in use
+01/16/2018 20:17:13  L    Considering job to run
+01/16/2018 20:17:13  L    Job is a top job and will run at Tue Jan 16 23:58:27 2018
+01/16/2018 20:17:13  L    Job is requesting an exclusive node and node is in use
+01/16/2018 20:17:43  L    Considering job to run
+01/16/2018 20:17:43  L    Job is a top job and will run at Tue Jan 16 23:58:27 2018
+01/16/2018 20:17:43  L    Job is requesting an exclusive node and node is in use
+01/16/2018 20:18:10  L    Considering job to run
+01/16/2018 20:18:11  L    Job is a top job and will run at Tue Jan 16 23:58:27 2018
+01/16/2018 20:18:11  L    Job is requesting an exclusive node and node is in use
+01/16/2018 20:18:35  L    Considering job to run
+01/16/2018 20:18:35  L    Job is a top job and will run at Tue Jan 16 23:58:27 2018
+01/16/2018 20:18:35  L    Job is requesting an exclusive node and node is in use
+01/16/2018 20:19:03  L    Considering job to run
+01/16/2018 20:19:03  L    Job is a top job and will run at Tue Jan 16 23:58:27 2018
+01/16/2018 20:19:03  L    Job is requesting an exclusive node and node is in use
+01/16/2018 20:19:26  L    Considering job to run
+01/16/2018 20:19:27  L    Job is a top job and will run at Tue Jan 16 23:58:27 2018
+01/16/2018 20:19:27  L    Job is requesting an exclusive node and node is in use
+01/16/2018 20:20:16  L    Considering job to run
+01/16/2018 20:20:16  L    Job run
+01/16/2018 20:20:16  A    user=jank group=catalys project=generic jobname=DOS-rom_4sr queue=large_ivy ctime=1516129956 qtime=1516129956 etime=1516129956 start=1516130416 exec_host=node0365/0*24+node0366/0*24+node0367/0*24+node0369/0*24 exec_vnode=(node0365:ncpus=24:mem=64512000kb)+(node0366:ncpus=24:mem=64512000kb)+(node0367:ncpus=24:mem=64512000kb)+(node0369:ncpus=24:mem=64512000kb) Resource_List.mem=252000mb Resource_List.mem_pnode=63000mb Resource_List.mpiprocs=96 Resource_List.ncpus=96 Resource_List.ncpus_pnode=24 Resource_List.nodect=4 Resource_List.place=exclhost Resource_List.rncpus=96 Resource_List.select=4:ncpus=24:mem=63000mb:mpiprocs=24:ompthreads=1 Resource_List.walltime=06:00:00 resource_assigned.mem=252000mb resource_assigned.ncpus=96 resource_assigned.vmem=252000mb
+01/16/2018 20:40:30  S    Added 96 cpu licenses, total 96
+01/16/2018 20:40:30  S    fully licensed
+
+------------------node0365------------------
+
+Job: 1718088.frontal2
+
+01/16/2018 20:20:17  M    no active tasks
+01/16/2018 20:20:17  M    no active tasks
+01/16/2018 20:20:17  M    running prologue
+01/16/2018 20:20:17  M    Started, pid = 61860
+01/16/2018 20:43:00  M    task 00000001 terminated
+01/16/2018 20:43:00  M    Terminated
+01/16/2018 20:43:00  M    task 00000001 cput= 9:03:11
+01/16/2018 20:43:00  M    node0365 cput= 8:57:26 mem=5816744kb
+01/16/2018 20:43:00  M    node0366 cput= 9:03:26 mem=5805888kb
+01/16/2018 20:43:00  M    node0367 cput= 9:03:21 mem=5804388kb
+01/16/2018 20:43:00  M    node0369 cput= 9:03:18 mem=5799016kb
+01/16/2018 20:43:00  M    update_job_usage: CPU usage: 32596.368 secs
+01/16/2018 20:43:00  M    update_job_usage: Memory usage: mem=5816744kb
+01/16/2018 20:43:00  M    update_job_usage: Memory usage: vmem=5816744kb
+01/16/2018 20:43:00  M    no active tasks
+01/16/2018 20:43:00  M    copy file request received
+01/16/2018 20:43:00  M    staged 1 items out over 0:00:00
+01/16/2018 20:43:00  M    no active tasks
+01/16/2018 20:43:00  M    delete job request received
+
+------------------node0366------------------
+
+
+01/16/2018 20:20:17  M    JOIN_JOB as node 1
+01/16/2018 20:20:17  M    task 02000001 started, /softs/intel/impi/5.0.3.049/intel64/bin/pmi_proxy
+01/16/2018 20:42:59  M    task 02000001 terminated
+01/16/2018 20:43:00  M    KILL_JOB received
+01/16/2018 20:43:00  M    task 02000001 cput= 9:03:21
+01/16/2018 20:43:01  M    no active tasks
+
+------------------node0367------------------
+
+
+01/16/2018 20:20:17  M    JOIN_JOB as node 2
+01/16/2018 20:20:17  M    task 04000001 started, /softs/intel/impi/5.0.3.049/intel64/bin/pmi_proxy
+01/16/2018 20:42:59  M    task 04000001 terminated
+01/16/2018 20:43:00  M    KILL_JOB received
+01/16/2018 20:43:00  M    task 04000001 cput= 9:03:16
+01/16/2018 20:43:01  M    no active tasks
+
+------------------node0369------------------
+
+
+01/16/2018 20:20:17  M    JOIN_JOB as node 3
+01/16/2018 20:20:17  M    task 06000001 started, /softs/intel/impi/5.0.3.049/intel64/bin/pmi_proxy
+01/16/2018 20:42:59  M    task 06000001 terminated
+01/16/2018 20:43:00  M    KILL_JOB received
+01/16/2018 20:43:00  M    task 06000001 cput= 9:03:13
+01/16/2018 20:43:01  M    no active tasks
+
+
+------------------------------- Job Information ------------------------------- 
+
+Job Owner       : jank@frontal3 
+Job Project     : catalys 
+Job Name        : DOS-rom_4sr 
+Job Id          : 1718088.frontal2 
+Job Queue       : large_ivy 
+Job Exit Status : 0 
+
+Resources Requested 
+
+Number of Cores per Job                - NCPUS_PJOB  : 96
+Total Memory per Job                   - MEM_PJOB    : 252000mb
+Placement                                            : exclhost
+Execution Time                         - WALLTIME    : 06:00:00
+
+Resources Used 
+
+Total Memory used                      - MEM              : 23226036kb
+Total CPU Time                         - CPU_Time         : 36:13:21
+Execution Time                         - Wall_Time        : 00:22:43
+Ncpus x Execution Time                 - N_Wall_Time      : 36:20:48
+CPU_Time / N_Wall_Time (%)             - ETA              : 99%
+Number of Mobilized Resources per Job  - NCPUS_EQUIV_PJOB : 96
+Mobilized Resources x Execution Time   - R_Wall_Time      : 36:20:48
+CPU_Time / R_Wall_Time (%)             - ALPHA            : 99%
+
+For metrics definition, please refer to https://tier1.cenaero.be/en/faq-page 
+
+------------------------------------------------------------------------------- 
+

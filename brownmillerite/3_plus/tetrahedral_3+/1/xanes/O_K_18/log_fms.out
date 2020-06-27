@@ -1,0 +1,17 @@
+ Number of processors =           12
+ Number of energy points =   115
+    9   FMS matrix (LUD) at point  10, number of state kets =1712
+ Doing FMS for a cluster of 107 atoms around iph =  0
+    7   FMS matrix (LUD) at point  20, number of state kets =1712
+    5   FMS matrix (LUD) at point  30, number of state kets =1712
+    3   FMS matrix (LUD) at point  40, number of state kets =1712
+    1   FMS matrix (LUD) at point  50, number of state kets =1712
+   11   FMS matrix (LUD) at point  60, number of state kets =1712
+    9   FMS matrix (LUD) at point  70, number of state kets =1712
+    7   FMS matrix (LUD) at point  80, number of state kets =1712
+    5   FMS matrix (LUD) at point  90, number of state kets =1712
+    3   FMS matrix (LUD) at point 100, number of state kets =1712
+    1   FMS matrix (LUD) at point 110, number of state kets =1712
+ Done with module 3: FMS.
+ total time        12.5572431087494     
+ communicate time  5.047106742858887E-002

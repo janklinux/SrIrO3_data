@@ -1,0 +1,30 @@
+mpot, nph, ntitle, ihole, ipr1, iafolp, ixc,ispec
+   1   3   8   1   1   0   0   1
+nmix, nohole, jumprm, inters, nscmt, icoul, lfms1, iunf
+   1   2   0   0  30   0   0   0
+comment: None given                                                             
+Source:                                                                         
+Structure Summary:  Sr4 Ir8 O16                                                 
+Reduced formula:  Sr(IrO2)2                                                     
+space group: (P1), space number:  (1)                                           
+abc:  5.212061   5.407989  15.584034                                            
+angles: 90.340363  89.998191  89.996127                                         
+sites: 28                                                                       
+gamach, rgrd, ca1, ecv, totvol, rfms1, corval_emin
+      0.15586      0.05000      0.20000    -40.00000      0.00000      4.50000    -70.00000
+ iz, lmaxsc, xnatph, xion, folp
+    8    2      1.00000      0.00000      1.15000
+   38    2    400.00000      0.00000      1.15000
+   77    2    800.00000      0.00000      1.15000
+    8    2   1600.00000      0.00000      1.15000
+ExternalPot switch, StartFromFile switch
+ F F
+OVERLAP option: novr(iph)
+   0   0   0   0
+ iphovr  nnovr rovr 
+ChSh_Type:
+   0
+ConfigType:
+   1
+Temperature (in eV):
+  0.000000000000000E+000           1

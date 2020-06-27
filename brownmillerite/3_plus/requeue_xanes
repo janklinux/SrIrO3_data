@@ -1,0 +1,29 @@
+#!/bin/bash
+
+for d in sq te; do
+ cd $d
+ for i in 1 2 3; do
+ if [ -d "$i" ]; then
+  cd $i
+   conv=$(grep "PBS: job killed: walltime" XANES_*)
+   if [ -n "$conv" ]; then
+#    echo "$i NON_KONV"
+    cd xanes
+     num=$(ls -l|wc -l)
+     last=$(echo "$num-2"|bc)
+     f="O_K_$last"
+#     echo "$f"
+     rm -rvf "$f"
+    cd ..
+    rm XANES_* -f
+    wdir=`pwd`
+    sed s/"JNAM"/"$d_$i"/g ../../jx | sed s@"JDIR"@"$wdir"@g > job_script
+    qsub job_script
+   else
+    nut=0
+   fi
+  cd ..
+ fi
+ done
+ cd ..
+done

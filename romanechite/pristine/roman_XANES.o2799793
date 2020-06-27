@@ -1,0 +1,207 @@
+[PROLOGUE] Starting prologue on node node0725 at date Thu Sep 27 23:57:48 CEST 2018
+/home/acad/ucl-naps/jank/tools/python/lib/python2.7/site-packages/pymatgen-2017.11.30-py2.7-linux-x86_64.egg/pymatgen/__init__.py:87: UserWarning: 
+Pymatgen will drop Py2k support from v2019.1.1. Pls consult the documentation
+at https://www.pymatgen.org for more details.
+  at https://www.pymatgen.org for more details.""")
+Atom indices in CIF file to compute:  ['1', '3', '7', '11', '15', '19', '23', '27']
+Species are:  [Element Ir, Element Ir, Element Ir, Element O, Element O, Element O, Element O, Element O]
+There are residues, killing them...
+Working on absorber O (atom# 11) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+Working on absorber O (atom# 15) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+Working on absorber O (atom# 19) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+Working on absorber O (atom# 23) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+Working on absorber O (atom# 27) - Edge: K
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/rdinp
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/atomic
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/dmdw
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/pot
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ldos
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/screen
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/opconsat
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/xsph
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/fms
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/mkgtr
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/path
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/genfmt
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/ff2x
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/sfconv
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/compton
+  exec: mpirun /home/acad/ucl-naps/jank/JFEFF/feff90/unix/MPI/eels
+
+
+
+------------------------------- PBS server and MOM logs ------------------------------- 
+
+
+------------------frontal2.cenaero.be------------------
+
+Job: 2799793.frontal2
+
+09/27/2018 22:14:45  S    enqueuing into main, state 1 hop 1
+09/27/2018 22:14:45  S    dequeuing from main, state 1
+09/27/2018 22:14:45  S    enqueuing into main_has, state 1 hop 1
+09/27/2018 22:14:45  S    Job Queued at request of jank@frontal3, owner = jank@frontal3, job name = roman_XANES, queue = main_has
+09/27/2018 22:14:45  A    queue=main
+09/27/2018 22:14:45  A    queue=main_has
+09/27/2018 23:14:25  L    Placement set cenaero=z_ivy has too few free resources or is too small
+09/27/2018 23:38:17  S    Job Modified at request of root@frontal2
+09/27/2018 23:50:36  L    Job is a top job and will run at Fri Sep 28 05:43:48 2018
+09/27/2018 23:50:51  L    Job is a top job and will run at Fri Sep 28 05:43:48 2018
+09/27/2018 23:51:02  L    Job is a top job and will run at Fri Sep 28 05:43:48 2018
+09/27/2018 23:51:14  L    Job is a top job and will run at Fri Sep 28 05:43:48 2018
+09/27/2018 23:51:27  L    Job is a top job and will run at Fri Sep 28 05:43:48 2018
+09/27/2018 23:51:38  L    Job is a top job and will run at Fri Sep 28 05:43:48 2018
+09/27/2018 23:51:50  L    Job is a top job and will run at Fri Sep 28 05:43:48 2018
+09/27/2018 23:52:09  L    Job is a top job and will run at Fri Sep 28 05:30:05 2018
+09/27/2018 23:52:21  L    Job is a top job and will run at Fri Sep 28 05:30:05 2018
+09/27/2018 23:52:32  L    Job is a top job and will run at Fri Sep 28 05:30:05 2018
+09/27/2018 23:52:46  L    Job is a top job and will run at Fri Sep 28 05:30:05 2018
+09/27/2018 23:53:11  L    Job is a top job and will run at Fri Sep 28 05:30:05 2018
+09/27/2018 23:53:27  L    Job is a top job and will run at Fri Sep 28 05:30:05 2018
+09/27/2018 23:53:47  L    Job is a top job and will run at Fri Sep 28 05:19:16 2018
+09/27/2018 23:53:59  L    Job is a top job and will run at Fri Sep 28 05:19:16 2018
+09/27/2018 23:54:11  L    Job is a top job and will run at Fri Sep 28 05:08:23 2018
+09/27/2018 23:54:24  L    Job is a top job and will run at Fri Sep 28 05:08:23 2018
+09/27/2018 23:54:36  L    Job is a top job and will run at Fri Sep 28 05:08:23 2018
+09/27/2018 23:55:03  L    Job is a top job and will run at Fri Sep 28 05:08:23 2018
+09/27/2018 23:55:15  L    Job is a top job and will run at Fri Sep 28 05:08:23 2018
+09/27/2018 23:55:36  L    Job is a top job and will run at Fri Sep 28 05:08:23 2018
+09/27/2018 23:55:48  L    Job is a top job and will run at Fri Sep 28 05:08:23 2018
+09/27/2018 23:56:00  L    Job is a top job and will run at Fri Sep 28 05:08:23 2018
+09/27/2018 23:56:12  L    Job is a top job and will run at Fri Sep 28 04:54:30 2018
+09/27/2018 23:56:26  L    Job is a top job and will run at Fri Sep 28 04:54:30 2018
+09/27/2018 23:56:38  L    Job is a top job and will run at Fri Sep 28 04:54:30 2018
+09/27/2018 23:56:50  L    Job is a top job and will run at Fri Sep 28 04:43:43 2018
+09/27/2018 23:57:07  L    Job is a top job and will run at Fri Sep 28 04:23:09 2018
+09/27/2018 23:57:23  L    Job is a top job and will run at Fri Sep 28 04:23:09 2018
+09/27/2018 23:57:36  L    Job is a top job and will run at Fri Sep 28 04:23:09 2018
+09/27/2018 23:57:36  L    Queue main_has per-user limit reached on resource ncpus
+09/27/2018 23:57:48  L    Considering job to run
+09/27/2018 23:57:48  L    Job run
+09/27/2018 23:57:48  A    user=jank group=catalys project=generic jobname=roman_XANES queue=main_has ctime=1538079285 qtime=1538079285 etime=1538079285 start=1538085468 exec_host=node0725/0*12 exec_vnode=(node0725:ncpus=12:mem=25600000kb) Resource_List.mem=25000mb Resource_List.mem_pnode=63000mb Resource_List.model=haswell_fit Resource_List.mpiprocs=12 Resource_List.ncpus=12 Resource_List.ncpus_pnode=24 Resource_List.nodect=1 Resource_List.place=free Resource_List.rncpus=12 Resource_List.select=1:ncpus=12:mem=25000mb:mpiprocs=12:ompthreads=1 Resource_List.walltime=06:00:00 resource_assigned.mem=25600000kb resource_assigned.ncpus=12
+09/28/2018 00:10:47  S    Added 12 cpu licenses, total 12
+09/28/2018 00:10:47  S    fully licensed
+
+------------------node0725------------------
+
+Job: 2799793.frontal2
+
+09/27/2018 23:57:48  M    running prologue
+09/27/2018 23:57:48  M    Started, pid = 4900
+09/28/2018 00:10:45  M    task 00000001 terminated
+09/28/2018 00:10:45  M    Terminated
+09/28/2018 00:10:45  M    task 00000001 cput= 1:14:32
+09/28/2018 00:10:45  M    node0725 cput= 1:03:36 mem=1667312kb
+09/28/2018 00:10:46  M    update_job_usage: CPU usage: 4472.981 secs
+09/28/2018 00:10:46  M    update_job_usage: Memory usage: mem=1667312kb
+09/28/2018 00:10:46  M    update_job_usage: Memory usage: vmem=1667312kb
+09/28/2018 00:10:46  M    no active tasks
+09/28/2018 00:10:51  M    copy file request received
+09/28/2018 00:10:51  M    staged 1 items out over 0:00:00
+09/28/2018 00:10:51  M    no active tasks
+09/28/2018 00:10:51  M    delete job request received
+
+
+------------------------------- Job Information ------------------------------- 
+
+Job Owner       : jank@frontal3 
+Job Project     : catalys 
+Job Name        : roman_XANES 
+Job Id          : 2799793.frontal2 
+Job Queue       : main_has 
+Job Exit Status : 0 
+
+Resources Requested 
+
+Number of Cores per Job                - NCPUS_PJOB  : 12
+Total Memory per Job                   - MEM_PJOB    : 25000mb
+Placement                                            : free
+Execution Time                         - WALLTIME    : 06:00:00
+
+Resources Used 
+
+Total Memory used                      - MEM              : 1667312kb
+Total CPU Time                         - CPU_Time         : 01:14:33
+Execution Time                         - Wall_Time        : 00:13:04
+Ncpus x Execution Time                 - N_Wall_Time      : 2:36:48
+CPU_Time / N_Wall_Time (%)             - ETA              : 47%
+Number of Mobilized Resources per Job  - NCPUS_EQUIV_PJOB : 12
+Mobilized Resources x Execution Time   - R_Wall_Time      : 2:36:48
+CPU_Time / R_Wall_Time (%)             - ALPHA            : 47%
+
+For metrics definition, please refer to https://tier1.cenaero.be/en/faq-page 
+
+------------------------------------------------------------------------------- 
+

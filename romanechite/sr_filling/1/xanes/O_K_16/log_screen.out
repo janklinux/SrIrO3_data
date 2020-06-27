@@ -1,0 +1,22 @@
+ Number of processors =           12
+ Calculating SCREEN ...
+      get phase shift for potential type            0
+      get phase shift for potential type            1
+      get phase shift for potential type            2
+      get phase shift for potential type            3
+  Doing FMS for a cluster of           24  atoms around iph =            0
+   0.% of energy integration
+  10.% of energy integration
+  20.% of energy integration
+  30.% of energy integration
+  40.% of energy integration
+  50.% of energy integration
+  60.% of energy integration
+  70.% of energy integration
+  80.% of energy integration
+  90.% of energy integration
+ 100.% -- end of energy integration --
+ Prepare response function
+ Start matrix inversion
+ Compute (1 - K Chi0)^-1 v_ch
+ Done with SCREEN.

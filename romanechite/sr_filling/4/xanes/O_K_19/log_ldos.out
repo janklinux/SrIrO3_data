@@ -1,0 +1,48 @@
+ Number of processors =           12
+ Calculating LDOS ...
+              LDOS calculation for specified grid
+ Calculating energy and space dependent l-DOS.
+ It takes time ...
+     potential type  0
+     potential type  1
+     potential type  2
+     potential type  3
+ Number of energy points = 101
+ Doing FMS for a cluster of 142 atoms around iph =  0
+    7   FMS matrix (LUD) at point  20, number of state kets =2272
+    3   FMS matrix (LUD) at point  40, number of state kets =2272
+   11   FMS matrix (LUD) at point  60, number of state kets =2272
+    7   FMS matrix (LUD) at point  80, number of state kets =2272
+    3   FMS matrix (LUD) at point 100, number of state kets =2272
+ Number of energy points = 101
+* * * WARNING preparing cluster for FMS calculation.
+      You specified a cluster of 153 atoms for the FMS calculation.
+      This exceeds the hard wired limit of 142 atoms.
+      The cluster size was reset to 142 and the calculation will continue.
+ Doing FMS for a cluster of 142 atoms around iph =  1
+    7   FMS matrix (LUD) at point  20, number of state kets =2272
+    3   FMS matrix (LUD) at point  40, number of state kets =2272
+   11   FMS matrix (LUD) at point  60, number of state kets =2272
+    7   FMS matrix (LUD) at point  80, number of state kets =2272
+    3   FMS matrix (LUD) at point 100, number of state kets =2272
+ Number of energy points = 101
+ Doing FMS for a cluster of 142 atoms around iph =  2
+    7   FMS matrix (LUD) at point  20, number of state kets =2272
+    3   FMS matrix (LUD) at point  40, number of state kets =2272
+   11   FMS matrix (LUD) at point  60, number of state kets =2272
+    7   FMS matrix (LUD) at point  80, number of state kets =2272
+    3   FMS matrix (LUD) at point 100, number of state kets =2272
+ Number of energy points = 101
+ Doing FMS for a cluster of 142 atoms around iph =  3
+    7   FMS matrix (LUD) at point  20, number of state kets =2272
+    3   FMS matrix (LUD) at point  40, number of state kets =2272
+   11   FMS matrix (LUD) at point  60, number of state kets =2272
+    7   FMS matrix (LUD) at point  80, number of state kets =2272
+    3   FMS matrix (LUD) at point 100, number of state kets =2272
+ Calculating chi and rho...    0
+ Calculating chi and rho...    1
+ Calculating chi and rho...    2
+ Calculating chi and rho...    3
+ Done with LDOS.
+ total time       92.4388809204102     
+ communicate time   6.28693890571594     
